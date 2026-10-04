@@ -1,0 +1,283 @@
+- generic [ref=f5e2]:
+  - banner [ref=f5e3]:
+    - generic [ref=f5e4]:
+      - link "DAREDOWN" [ref=f5e5] [cursor=pointer]:
+        - /url: /
+      - list [ref=f5e6]:
+        - listitem [ref=f5e7]:
+          - link "Challenges" [ref=f5e8] [cursor=pointer]:
+            - /url: /ngc
+        - listitem [ref=f5e9]:
+          - link "Bracket" [ref=f5e10] [cursor=pointer]:
+            - /url: /#bracket
+        - listitem [ref=f5e11]:
+          - link "Rules" [ref=f5e12] [cursor=pointer]:
+            - /url: /rules
+        - listitem [ref=f5e13]:
+          - link "About" [ref=f5e14] [cursor=pointer]:
+            - /url: /#about
+        - listitem [ref=f5e15]:
+          - button "Toggle visual theme" [ref=f5e16] [cursor=pointer]:
+            - generic [ref=f5e18]: BOY
+        - listitem [ref=f5e19]:
+          - link "Register / Log In" [ref=f5e20] [cursor=pointer]:
+            - /url: /register
+  - main [ref=f5e21]:
+    - generic [ref=f5e47]:
+      - heading "Judge" [level=1] [ref=f5e48]
+      - paragraph [ref=f5e49]: Rate tournament works and leave jury comments visible to participants in their cabinet.
+      - generic [ref=f5e50]:
+        - button "Load Matches" [ref=f5e51]
+        - textbox "Search by round, match, participant or id" [ref=f5e52]
+      - generic "Judge rounds" [ref=f5e53]:
+        - button "All rounds" [ref=f5e54]
+        - button "Round of 16" [ref=f5e55]
+        - button "Quarterfinals" [ref=f5e56]
+        - button "Semifinals" [ref=f5e57]
+        - button "Final" [ref=f5e58]
+      - generic [ref=f5e59]:
+        - complementary [ref=f5e60]:
+          - paragraph [ref=f5e61]: Matches
+          - generic [ref=f5e62]:
+            - button [ref=f5e63]:
+              - generic [ref=f5e64]:
+                - generic [ref=f5e65]:
+                  - paragraph [ref=f5e66]: Round of 16
+                  - paragraph [ref=f5e67]: Match 1
+                - paragraph [ref=f5e68]: Scheduled
+              - paragraph [ref=f5e69]: "Player #1 vs Player #2"
+            - button [ref=f5e70]:
+              - generic [ref=f5e71]:
+                - generic [ref=f5e72]:
+                  - paragraph [ref=f5e73]: Round of 16
+                  - paragraph [ref=f5e74]: Match 2
+                - paragraph [ref=f5e75]: Scheduled
+              - paragraph [ref=f5e76]: "Player #3 vs Player #4"
+            - button [ref=f5e77]:
+              - generic [ref=f5e78]:
+                - generic [ref=f5e79]:
+                  - paragraph [ref=f5e80]: Round of 16
+                  - paragraph [ref=f5e81]: Match 3
+                - paragraph [ref=f5e82]: Scheduled
+              - paragraph [ref=f5e83]: "Player #5 vs Player #6"
+            - button [ref=f5e84]:
+              - generic [ref=f5e85]:
+                - generic [ref=f5e86]:
+                  - paragraph [ref=f5e87]: Round of 16
+                  - paragraph [ref=f5e88]: Match 4
+                - paragraph [ref=f5e89]: Scheduled
+              - paragraph [ref=f5e90]: "Player #7 vs Player #8"
+            - button [ref=f5e91]:
+              - generic [ref=f5e92]:
+                - generic [ref=f5e93]:
+                  - paragraph [ref=f5e94]: Round of 16
+                  - paragraph [ref=f5e95]: Match 5
+                - paragraph [ref=f5e96]: Scheduled
+              - paragraph [ref=f5e97]: "Player #9 vs Player #10"
+            - button [ref=f5e98]:
+              - generic [ref=f5e99]:
+                - generic [ref=f5e100]:
+                  - paragraph [ref=f5e101]: Round of 16
+                  - paragraph [ref=f5e102]: Match 6
+                - paragraph [ref=f5e103]: Scheduled
+              - paragraph [ref=f5e104]: "Player #11 vs Player #12"
+            - button [ref=f5e105]:
+              - generic [ref=f5e106]:
+                - generic [ref=f5e107]:
+                  - paragraph [ref=f5e108]: Round of 16
+                  - paragraph [ref=f5e109]: Match 7
+                - paragraph [ref=f5e110]: Scheduled
+              - paragraph [ref=f5e111]: "Player #13 vs Player #14"
+            - button [ref=f5e112]:
+              - generic [ref=f5e113]:
+                - generic [ref=f5e114]:
+                  - paragraph [ref=f5e115]: Round of 16
+                  - paragraph [ref=f5e116]: Match 8
+                - paragraph [ref=f5e117]: Scheduled
+              - paragraph [ref=f5e118]: "Player #15 vs Player #16"
+            - button [ref=f5e119]:
+              - generic [ref=f5e120]:
+                - generic [ref=f5e121]:
+                  - paragraph [ref=f5e122]: Quarterfinals
+                  - paragraph [ref=f5e123]: Match 1
+                - paragraph [ref=f5e124]: Pending
+              - paragraph [ref=f5e125]: TBD vs TBD
+            - button [ref=f5e126]:
+              - generic [ref=f5e127]:
+                - generic [ref=f5e128]:
+                  - paragraph [ref=f5e129]: Quarterfinals
+                  - paragraph [ref=f5e130]: Match 2
+                - paragraph [ref=f5e131]: Pending
+              - paragraph [ref=f5e132]: TBD vs TBD
+            - button [ref=f5e133]:
+              - generic [ref=f5e134]:
+                - generic [ref=f5e135]:
+                  - paragraph [ref=f5e136]: Quarterfinals
+                  - paragraph [ref=f5e137]: Match 3
+                - paragraph [ref=f5e138]: Pending
+              - paragraph [ref=f5e139]: TBD vs TBD
+            - button [ref=f5e140]:
+              - generic [ref=f5e141]:
+                - generic [ref=f5e142]:
+                  - paragraph [ref=f5e143]: Quarterfinals
+                  - paragraph [ref=f5e144]: Match 4
+                - paragraph [ref=f5e145]: Pending
+              - paragraph [ref=f5e146]: TBD vs TBD
+            - button [ref=f5e147]:
+              - generic [ref=f5e148]:
+                - generic [ref=f5e149]:
+                  - paragraph [ref=f5e150]: Semifinals
+                  - paragraph [ref=f5e151]: Match 1
+                - paragraph [ref=f5e152]: Pending
+              - paragraph [ref=f5e153]: TBD vs TBD
+            - button [ref=f5e154]:
+              - generic [ref=f5e155]:
+                - generic [ref=f5e156]:
+                  - paragraph [ref=f5e157]: Semifinals
+                  - paragraph [ref=f5e158]: Match 2
+                - paragraph [ref=f5e159]: Pending
+              - paragraph [ref=f5e160]: TBD vs TBD
+            - button [ref=f5e161]:
+              - generic [ref=f5e162]:
+                - generic [ref=f5e163]:
+                  - paragraph [ref=f5e164]: Final
+                  - paragraph [ref=f5e165]: Match 1
+                - paragraph [ref=f5e166]: Pending
+              - paragraph [ref=f5e167]: TBD vs TBD
+        - generic [ref=f5e168]:
+          - paragraph [ref=f5e169]: Match Details
+          - generic [ref=f5e170]:
+            - generic [ref=f5e171]:
+              - generic [ref=f5e172]:
+                - paragraph [ref=f5e173]: Round of 16
+                - paragraph [ref=f5e174]: "Round 1 · Match 1 · Status: Scheduled"
+              - paragraph
+            - generic [ref=f5e175]:
+              - article [ref=f5e176]:
+                - generic [ref=f5e177]:
+                  - generic [ref=f5e178]: P
+                  - generic [ref=f5e180]:
+                    - paragraph [ref=f5e181]: "Player #1"
+                    - generic [ref=f5e182]: No socials
+                - generic [ref=f5e184]:
+                  - generic [ref=f5e185]: Submission not available yet
+                  - generic [ref=f5e187]:
+                    - paragraph [ref=f5e188]: "Users average: -"
+                    - paragraph [ref=f5e189]: "Jury average: -"
+                  - generic [ref=f5e190]:
+                    - paragraph [ref=f5e191]: Description by author
+                    - paragraph [ref=f5e192]: No description yet.
+                - generic [ref=f5e193]:
+                  - generic [ref=f5e194]:
+                    - generic [ref=f5e195]:
+                      - generic [ref=f5e196]:
+                        - generic [ref=f5e197]: concept
+                        - generic [ref=f5e198]: "0"
+                      - slider "concept 0" [ref=f5e199]: "0"
+                    - generic [ref=f5e200]:
+                      - generic [ref=f5e201]:
+                        - generic [ref=f5e202]: individuality
+                        - generic [ref=f5e203]: "0"
+                      - slider "individuality 0" [ref=f5e204]: "0"
+                    - generic [ref=f5e205]:
+                      - generic [ref=f5e206]:
+                        - generic [ref=f5e207]: execution
+                        - generic [ref=f5e208]: "0"
+                      - slider "execution 0" [ref=f5e209]: "0"
+                    - generic [ref=f5e210]:
+                      - generic [ref=f5e211]:
+                        - generic [ref=f5e212]: style implementation
+                        - generic [ref=f5e213]: "0"
+                      - slider "style implementation 0" [ref=f5e214]: "0"
+                    - generic [ref=f5e215]:
+                      - generic [ref=f5e216]:
+                        - generic [ref=f5e217]: overall
+                        - generic [ref=f5e218]: "0"
+                      - slider "overall 0" [ref=f5e219]: "0"
+                  - generic [ref=f5e220]:
+                    - text: Comment (Optional)
+                    - textbox "Comment (Optional)" [ref=f5e221]:
+                      - /placeholder: Optional comment visible to the participant.
+                  - generic [ref=f5e222]:
+                    - generic [ref=f5e223]:
+                      - paragraph [ref=f5e224]: Your Rating
+                      - paragraph [ref=f5e225]: "0"
+                    - button "Publish Jury Score" [ref=f5e226]
+                  - paragraph [ref=f5e227]
+              - article [ref=f5e228]:
+                - generic [ref=f5e229]:
+                  - generic [ref=f5e230]: P
+                  - generic [ref=f5e232]:
+                    - paragraph [ref=f5e233]: "Player #2"
+                    - generic [ref=f5e234]: No socials
+                - generic [ref=f5e236]:
+                  - generic [ref=f5e237]: Submission not available yet
+                  - generic [ref=f5e239]:
+                    - paragraph [ref=f5e240]: "Users average: -"
+                    - paragraph [ref=f5e241]: "Jury average: -"
+                  - generic [ref=f5e242]:
+                    - paragraph [ref=f5e243]: Description by author
+                    - paragraph [ref=f5e244]: No description yet.
+                - generic [ref=f5e245]:
+                  - generic [ref=f5e246]:
+                    - generic [ref=f5e247]:
+                      - generic [ref=f5e248]:
+                        - generic [ref=f5e249]: concept
+                        - generic [ref=f5e250]: "0"
+                      - slider "concept 0" [ref=f5e251]: "0"
+                    - generic [ref=f5e252]:
+                      - generic [ref=f5e253]:
+                        - generic [ref=f5e254]: individuality
+                        - generic [ref=f5e255]: "0"
+                      - slider "individuality 0" [ref=f5e256]: "0"
+                    - generic [ref=f5e257]:
+                      - generic [ref=f5e258]:
+                        - generic [ref=f5e259]: execution
+                        - generic [ref=f5e260]: "0"
+                      - slider "execution 0" [ref=f5e261]: "0"
+                    - generic [ref=f5e262]:
+                      - generic [ref=f5e263]:
+                        - generic [ref=f5e264]: style implementation
+                        - generic [ref=f5e265]: "0"
+                      - slider "style implementation 0" [ref=f5e266]: "0"
+                    - generic [ref=f5e267]:
+                      - generic [ref=f5e268]:
+                        - generic [ref=f5e269]: overall
+                        - generic [ref=f5e270]: "0"
+                      - slider "overall 0" [ref=f5e271]: "0"
+                  - generic [ref=f5e272]:
+                    - text: Comment (Optional)
+                    - textbox "Comment (Optional)" [ref=f5e273]:
+                      - /placeholder: Optional comment visible to the participant.
+                  - generic [ref=f5e274]:
+                    - generic [ref=f5e275]:
+                      - paragraph [ref=f5e276]: Your Rating
+                      - paragraph [ref=f5e277]: "0"
+                    - button "Publish Jury Score" [ref=f5e278]
+                  - paragraph [ref=f5e279]
+  - generic [ref=f5e25]:
+    - img "DAREDOWN" [ref=f5e26]
+    - contentinfo [ref=f5e27]:
+      - generic [ref=f5e28]:
+        - generic [ref=f5e29]:
+          - generic [ref=f5e30]: DAREDOWN
+          - generic [ref=f5e31]: TRUTH OR DARE
+          - generic [ref=f5e32]: TOURNAMENT
+        - list [ref=f5e33]:
+          - listitem [ref=f5e34]:
+            - link "Rules" [ref=f5e35] [cursor=pointer]:
+              - /url: /rules
+          - listitem [ref=f5e36]:
+            - link "Bracket" [ref=f5e37] [cursor=pointer]:
+              - /url: /#bracket
+          - listitem [ref=f5e38]:
+            - link "Challenges" [ref=f5e39] [cursor=pointer]:
+              - /url: /ngc
+          - listitem [ref=f5e40]:
+            - link "About" [ref=f5e41] [cursor=pointer]:
+              - /url: /#about
+        - list [ref=f5e42]:
+          - listitem [ref=f5e43]:
+            - link "Register" [ref=f5e44] [cursor=pointer]:
+              - /url: /register
+        - generic [ref=f5e45]: Hosted by the crew

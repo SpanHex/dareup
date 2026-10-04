@@ -1,0 +1,125 @@
+- generic [ref=f7e2]:
+  - banner [ref=f7e3]:
+    - generic [ref=f7e4]:
+      - link "DAREDOWN" [ref=f7e5] [cursor=pointer]:
+        - /url: /
+      - list [ref=f7e6]:
+        - listitem [ref=f7e7]:
+          - link "Challenges" [ref=f7e8] [cursor=pointer]:
+            - /url: /ngc
+        - listitem [ref=f7e9]:
+          - link "Bracket" [ref=f7e10] [cursor=pointer]:
+            - /url: /#bracket
+        - listitem [ref=f7e11]:
+          - link "Rules" [ref=f7e12] [cursor=pointer]:
+            - /url: /rules
+        - listitem [ref=f7e13]:
+          - link "About" [ref=f7e14] [cursor=pointer]:
+            - /url: /#about
+        - listitem [ref=f7e15]:
+          - button "Toggle visual theme" [ref=f7e16] [cursor=pointer]:
+            - generic [ref=f7e18]: BOY
+        - listitem [ref=f7e19]:
+          - link "Register / Log In" [ref=f7e20] [cursor=pointer]:
+            - /url: /register
+  - main [ref=f7e22]:
+    - generic [ref=f7e23]:
+      - generic [ref=f7e24]: DAREDOWN ~ Challenge Pool
+      - heading "Truth & Dare" [level=1] [ref=f7e25]
+      - paragraph [ref=f7e26]: These are the challenges you'll face in the tournament. All challenges are assigned live by the host, randomly selected from this pool. Come prepared for anything.
+    - group "Filter challenges" [ref=f7e27]:
+      - button "All" [ref=f7e28] [cursor=pointer]
+      - button "Truth" [ref=f7e29] [cursor=pointer]
+      - button "Dare" [active] [ref=f7e30] [cursor=pointer]
+    - generic [ref=f7e31]:
+      - generic [ref=f7e137]:
+        - generic [ref=f7e138]: DARE
+        - paragraph [ref=f7e139]: Do your best impression of someone in this room. They have to guess who it is.
+        - 'generic "Difficulty: 1 of 3" [ref=f7e140]'
+      - generic [ref=f7e144]:
+        - generic [ref=f7e145]: DARE
+        - paragraph [ref=f7e146]: "Sing the chorus of the last song you listened to: full volume, no skipping."
+        - 'generic "Difficulty: 1 of 3" [ref=f7e147]'
+      - generic [ref=f7e151]:
+        - generic [ref=f7e152]: DARE
+        - paragraph [ref=f7e153]: Let someone in the room style your hair however they want for the rest of the round.
+        - 'generic "Difficulty: 2 of 3" [ref=f7e154]'
+      - generic [ref=f7e158]:
+        - generic [ref=f7e159]: DARE
+        - paragraph [ref=f7e160]: Text someone you haven't spoken to in over a year, right now, and say 'I miss you'.
+        - 'generic "Difficulty: 3 of 3" [ref=f7e161]'
+      - generic [ref=f7e165]:
+        - generic [ref=f7e166]: DARE
+        - paragraph [ref=f7e167]: Speak in an accent chosen by the host for the next 3 minutes.
+        - 'generic "Difficulty: 1 of 3" [ref=f7e168]'
+      - generic [ref=f7e172]:
+        - generic [ref=f7e173]: DARE
+        - paragraph [ref=f7e174]: Call a family member and convince them you've joined a band.
+        - 'generic "Difficulty: 3 of 3" [ref=f7e175]'
+      - generic [ref=f7e179]:
+        - generic [ref=f7e180]: DARE
+        - paragraph [ref=f7e181]: Do 20 jumping jacks while narrating what you're doing in a sports commentary voice.
+        - 'generic "Difficulty: 1 of 3" [ref=f7e182]'
+      - generic [ref=f7e186]:
+        - generic [ref=f7e187]: DARE
+        - paragraph [ref=f7e188]: Let the room write a status on your social media of their choosing. It must stay up for 10 minutes.
+        - 'generic "Difficulty: 3 of 3" [ref=f7e189]'
+      - generic [ref=f7e193]:
+        - generic [ref=f7e194]: DARE
+        - paragraph [ref=f7e195]: Hold a plank position for 30 seconds while everyone counts down.
+        - 'generic "Difficulty: 2 of 3" [ref=f7e196]'
+      - generic [ref=f7e200]:
+        - generic [ref=f7e201]: DARE
+        - paragraph [ref=f7e202]: Recreate the most iconic photo you've taken. Do your best to get it exactly right.
+        - 'generic "Difficulty: 1 of 3" [ref=f7e203]'
+      - generic [ref=f7e207]:
+        - generic [ref=f7e208]: DARE
+        - paragraph [ref=f7e209]: Eat a snack chosen by the group. No complaints, no negotiations.
+        - 'generic "Difficulty: 2 of 3" [ref=f7e210]'
+      - generic [ref=f7e214]:
+        - generic [ref=f7e215]: DARE
+        - paragraph [ref=f7e216]: Let the host read your most recent 5 text messages out loud.
+        - 'generic "Difficulty: 3 of 3" [ref=f7e217]'
+      - generic [ref=f7e221]:
+        - generic [ref=f7e222]: DARE
+        - paragraph [ref=f7e223]: Stand up and do your best catwalk across the room. Do it twice.
+        - 'generic "Difficulty: 1 of 3" [ref=f7e224]'
+      - generic [ref=f7e228]:
+        - generic [ref=f7e229]: DARE
+        - paragraph [ref=f7e230]: "Freestyle rap for 30 seconds using the words: 'dare', 'tournament', and 'champion'."
+        - 'generic "Difficulty: 2 of 3" [ref=f7e231]'
+      - generic [ref=f7e235]:
+        - generic [ref=f7e236]: DARE
+        - paragraph [ref=f7e237]: "Say something genuinely nice about every person watching: one sentence each."
+        - 'generic "Difficulty: 2 of 3" [ref=f7e238]'
+    - generic [ref=f7e242]:
+      - heading "Think you can handle it?" [level=2] [ref=f7e243]
+      - paragraph [ref=f7e244]: £0.50 entry. £50 prize. 16 spots. First come, first served.
+      - link "Register Now" [ref=f7e245] [cursor=pointer]:
+        - /url: /register
+  - generic [ref=f7e246]:
+    - img "DAREDOWN" [ref=f7e247]
+    - contentinfo [ref=f7e248]:
+      - generic [ref=f7e249]:
+        - generic [ref=f7e250]:
+          - generic [ref=f7e251]: DAREDOWN
+          - generic [ref=f7e252]: TRUTH OR DARE
+          - generic [ref=f7e253]: TOURNAMENT
+        - list [ref=f7e254]:
+          - listitem [ref=f7e255]:
+            - link "Rules" [ref=f7e256] [cursor=pointer]:
+              - /url: /rules
+          - listitem [ref=f7e257]:
+            - link "Bracket" [ref=f7e258] [cursor=pointer]:
+              - /url: /#bracket
+          - listitem [ref=f7e259]:
+            - link "Challenges" [ref=f7e260] [cursor=pointer]:
+              - /url: /ngc
+          - listitem [ref=f7e261]:
+            - link "About" [ref=f7e262] [cursor=pointer]:
+              - /url: /#about
+        - list [ref=f7e263]:
+          - listitem [ref=f7e264]:
+            - link "Register" [ref=f7e265] [cursor=pointer]:
+              - /url: /register
+        - generic [ref=f7e266]: Hosted by the crew

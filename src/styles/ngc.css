@@ -1,0 +1,265 @@
+/* ==========================================================================
+   DAREDOWN // CHALLENGES PAGE (NGC) STYLES
+   Extracted 1:1 from ngc/index.html
+   ========================================================================== */
+
+/* ── Page ── */
+.challenges-page {
+  min-height: 100vh;
+  background: #050505;
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* ── Main ── */
+.challenges-main {
+  max-width: 1720px;
+  margin: 0 auto;
+  padding: clamp(130px, 16vh, 180px) 20px clamp(72px, 10vh, 120px);
+}
+
+/* ── Header row ── */
+.challenges-header-row {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: clamp(48px, 7vh, 80px);
+}
+
+.challenges-eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.challenges-title {
+  font-size: clamp(3rem, 6vw, 7rem);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 0.92;
+  text-transform: uppercase;
+  color: #e10606;
+  margin: 0;
+}
+
+.challenges-sub {
+  font-size: clamp(0.82rem, 0.9vw, 1.25rem);
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  max-width: 900px;
+  margin-top: 12px;
+}
+
+/* ── Filter tabs ── */
+.challenges-filters {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.challenges-filter-btn {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  min-height: 44px;
+  min-width: 64px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: background 0.18s, color 0.18s, border-color 0.18s;
+  font-family: inherit;
+}
+
+.challenges-filter-btn:hover,
+.challenges-filter-btn.is-active {
+  background: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.challenges-filter-btn.is-truth.is-active {
+  background: #4f8ef7;
+  border-color: #4f8ef7;
+  color: #fff;
+}
+
+.challenges-filter-btn.is-dare.is-active {
+  background: #ff4b82;
+  border-color: #ff4b82;
+  color: #fff;
+}
+
+/* ── Grid ── */
+.challenges-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+  gap: 20px;
+}
+
+/* ── Card ── */
+.challenge-card {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.02);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: border-color 0.2s, background 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+
+.challenge-card:hover {
+  border-color: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.challenge-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.challenge-card:hover::before { opacity: 1; }
+.challenge-card[data-type="truth"]::before { background: #4f8ef7; }
+.challenge-card[data-type="dare"]::before { background: #ff4b82; }
+
+.challenge-type-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  width: fit-content;
+}
+
+[data-type="truth"] .challenge-type-badge {
+  background: rgba(79, 142, 247, 0.15);
+  color: #4f8ef7;
+  border: 1px solid rgba(79, 142, 247, 0.3);
+}
+
+[data-type="dare"] .challenge-type-badge {
+  background: rgba(255, 75, 130, 0.12);
+  color: #ff4b82;
+  border: 1px solid rgba(255, 75, 130, 0.25);
+}
+
+.challenge-difficulty {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.challenge-difficulty-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.challenge-difficulty-dot.is-filled { background: rgba(255, 255, 255, 0.7); }
+[data-type="truth"] .challenge-difficulty-dot.is-filled { background: #4f8ef7; }
+[data-type="dare"] .challenge-difficulty-dot.is-filled { background: #ff4b82; }
+
+.challenge-text {
+  font-size: clamp(0.92rem, 1.1vw, 1.15rem);
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.85);
+  flex: 1;
+}
+
+/* ── CTA ── */
+.challenges-cta {
+  margin-top: clamp(56px, 8vh, 80px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.challenges-cta-title {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+
+.challenges-cta-sub {
+  font-size: clamp(0.85rem, 1vw, 1.1rem);
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+}
+
+.challenges-cta-btn {
+  display: inline-flex;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: transparent;
+  color: #fff;
+  font-size: 0.82rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding: 14px 32px;
+  text-decoration: none;
+  transition: background 0.18s, color 0.18s;
+  font-family: inherit;
+}
+
+.challenges-cta-btn:hover { background: #fff; color: #000; }
+
+/* ── Girl theme overrides ── */
+html[data-theme="girl"] .challenges-page { background: #fff5f8; color: #1a0a10; }
+html[data-theme="girl"] .challenges-title { color: #ff4b82; }
+html[data-theme="girl"] .challenges-sub { color: rgba(26, 10, 16, 0.55); }
+html[data-theme="girl"] .challenges-eyebrow { color: rgba(26, 10, 16, 0.4); }
+html[data-theme="girl"] .challenge-card {
+  border-color: rgba(26, 10, 16, 0.1);
+  background: rgba(26, 10, 16, 0.02);
+}
+html[data-theme="girl"] .challenge-card:hover {
+  border-color: rgba(26, 10, 16, 0.2);
+  background: rgba(26, 10, 16, 0.04);
+}
+html[data-theme="girl"] .challenge-text { color: rgba(26, 10, 16, 0.85); }
+html[data-theme="girl"] .challenges-filter-btn { border-color: rgba(26, 10, 16, 0.2); color: rgba(26, 10, 16, 0.5); }
+html[data-theme="girl"] .challenges-filter-btn:hover { background: #1a0a10; color: #fff; border-color: #1a0a10; }
+html[data-theme="girl"] .challenges-cta-title { color: #1a0a10; }
+html[data-theme="girl"] .challenges-cta-sub { color: rgba(26, 10, 16, 0.5); }
+html[data-theme="girl"] .challenges-cta-btn { border-color: #ff4b82; color: #ff4b82; }
+html[data-theme="girl"] .challenges-cta-btn:hover { background: #ff4b82; color: #fff; }
+html[data-theme="girl"] .challenge-difficulty-dot { background: rgba(26, 10, 16, 0.15); }
+
+@media (max-width: 700px) {
+  .challenges-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 768px) {
+  .challenges-main {
+    padding-top: clamp(88px, 14vh, 120px);
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}

@@ -1,0 +1,83 @@
+- generic [ref=f5e2]:
+  - banner [ref=f5e3]:
+    - generic [ref=f5e4]:
+      - link "DAREDOWN" [ref=f5e5] [cursor=pointer]:
+        - /url: /
+      - list [ref=f5e6]:
+        - listitem [ref=f5e7]:
+          - link "Challenges" [ref=f5e8] [cursor=pointer]:
+            - /url: /ngc
+        - listitem [ref=f5e9]:
+          - link "Bracket" [ref=f5e10] [cursor=pointer]:
+            - /url: /#bracket
+        - listitem [ref=f5e11]:
+          - link "Rules" [ref=f5e12] [cursor=pointer]:
+            - /url: /rules
+        - listitem [ref=f5e13]:
+          - link "About" [ref=f5e14] [cursor=pointer]:
+            - /url: /#about
+        - listitem [ref=f5e15]:
+          - button "Toggle visual theme" [ref=f5e16] [cursor=pointer]:
+            - generic [ref=f5e18]: BOY
+        - listitem [ref=f5e19]:
+          - link "Register / Log In" [ref=f5e20] [cursor=pointer]:
+            - /url: /register
+  - generic [ref=f5e21]:
+    - generic [ref=f5e22]:
+      - heading "HOST / JURY SCORING PANEL" [level=1] [ref=f5e23]
+      - paragraph [ref=f5e24]: Assign challenges and submit official host scores for live DAREDOWN matches.
+    - generic [ref=f5e25]:
+      - generic [ref=f5e26]: Select Tournament Match
+      - combobox [ref=f5e27]:
+        - 'option "Match 1 (Round of 16): Player #1 vs Player #2" [selected]'
+        - 'option "Match 2 (Round of 16): Player #3 vs Player #4"'
+        - 'option "Match 3 (Round of 16): Player #5 vs Player #6"'
+        - 'option "Match 4 (Round of 16): Player #7 vs Player #8"'
+        - 'option "Match 5 (Round of 16): Player #9 vs Player #10"'
+        - 'option "Match 6 (Round of 16): Player #11 vs Player #12"'
+        - 'option "Match 7 (Round of 16): Player #13 vs Player #14"'
+        - 'option "Match 8 (Round of 16): Player #15 vs Player #16"'
+    - generic [ref=f5e28]:
+      - generic [ref=f5e29]:
+        - 'heading "Participant A (Player #1)" [level=3] [ref=f5e30]'
+        - generic [ref=f5e31]:
+          - generic [ref=f5e32]: Challenge Completed (0 = No, 1 = Yes)
+          - spinbutton [ref=f5e33]: "1"
+        - generic [ref=f5e34]:
+          - generic [ref=f5e35]: Overall Performance Score (0 - 10)
+          - spinbutton [ref=f5e36]: "8"
+      - generic [ref=f5e37]:
+        - 'heading "Participant B (Player #2)" [level=3] [ref=f5e38]'
+        - generic [ref=f5e39]:
+          - generic [ref=f5e40]: Challenge Completed (0 = No, 1 = Yes)
+          - spinbutton [ref=f5e41]: "0"
+        - generic [ref=f5e42]:
+          - generic [ref=f5e43]: Overall Performance Score (0 - 10)
+          - spinbutton [ref=f5e44]: "5"
+    - button "Submit Official Jury Scores" [ref=f5e45] [cursor=pointer]
+  - generic [ref=f5e46]:
+    - img "DAREDOWN" [ref=f5e47]
+    - contentinfo [ref=f5e48]:
+      - generic [ref=f5e49]:
+        - generic [ref=f5e50]:
+          - generic [ref=f5e51]: DAREDOWN
+          - generic [ref=f5e52]: TRUTH OR DARE
+          - generic [ref=f5e53]: TOURNAMENT
+        - list [ref=f5e54]:
+          - listitem [ref=f5e55]:
+            - link "Rules" [ref=f5e56] [cursor=pointer]:
+              - /url: /rules
+          - listitem [ref=f5e57]:
+            - link "Bracket" [ref=f5e58] [cursor=pointer]:
+              - /url: /#bracket
+          - listitem [ref=f5e59]:
+            - link "Challenges" [ref=f5e60] [cursor=pointer]:
+              - /url: /ngc
+          - listitem [ref=f5e61]:
+            - link "About" [ref=f5e62] [cursor=pointer]:
+              - /url: /#about
+        - list [ref=f5e63]:
+          - listitem [ref=f5e64]:
+            - link "Register" [ref=f5e65] [cursor=pointer]:
+              - /url: /register
+        - generic [ref=f5e66]: Hosted by the crew

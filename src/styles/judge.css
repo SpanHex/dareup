@@ -1,0 +1,61 @@
+/* ==========================================================================
+   DAREDOWN // HOST / JUDGE PANEL STYLES
+   Extracted 1:1 from judge/index.html
+   ========================================================================== */
+
+#judge-load-matches {
+  min-height: 44px;
+  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  touch-action: manipulation;
+}
+
+#judge-filter-search {
+  min-height: 44px;
+  font-size: 16px;
+}
+
+button[data-field="publish"] {
+  min-height: 44px;
+  padding: 10px 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  touch-action: manipulation;
+}
+
+.judge-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: clamp(120px, 15vh, 160px) 20px 80px;
+  color: #fff;
+}
+
+.judge-header {
+  margin-bottom: 32px;
+}
+
+.judge-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  margin: 0 0 8px;
+}
+
+.judge-subtitle {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.95rem;
+}
+
+@media (min-width: 1280px) {
+  #judge-content .xl\:grid-cols-\[minmax\(0\,360px\)\,1fr\] {
+    grid-template-columns: minmax(0, 360px) 1fr !important;
+  }
+
+  #judge-match-panel .xl\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+

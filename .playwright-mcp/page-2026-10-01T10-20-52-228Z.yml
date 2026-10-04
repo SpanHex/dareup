@@ -1,0 +1,147 @@
+- generic [ref=f7e3]:
+  - banner [ref=f7e4]:
+    - generic [ref=f7e5]:
+      - link "DAREDOWN" [ref=f7e6] [cursor=pointer]:
+        - /url: /
+      - navigation "Main Navigation" [ref=f7e7]:
+        - list [ref=f7e8]:
+          - listitem [ref=f7e9]:
+            - link "Challenges" [ref=f7e10] [cursor=pointer]:
+              - /url: /ngc
+          - listitem [ref=f7e11]:
+            - button "Bracket" [ref=f7e12] [cursor=pointer]
+          - listitem [ref=f7e13]:
+            - link "Rules" [ref=f7e14] [cursor=pointer]:
+              - /url: /rules
+          - listitem [ref=f7e15]:
+            - button "About" [ref=f7e16] [cursor=pointer]
+          - listitem [ref=f7e17]:
+            - button "Toggle theme (currently boy)" [ref=f7e18] [cursor=pointer]:
+              - generic [ref=f7e20]: BOY
+          - listitem [ref=f7e21]:
+            - link "Register / Log In" [ref=f7e22] [cursor=pointer]:
+              - /url: /register
+  - dialog "Mobile Navigation" [ref=f7e23]:
+    - generic [ref=f7e24]:
+      - generic [ref=f7e25]: DAREDOWN
+      - button "Close menu" [ref=f7e26] [cursor=pointer]
+    - navigation [ref=f7e30]:
+      - link "Challenges (Truth/Dare) →" [ref=f7e31] [cursor=pointer]:
+        - /url: /ngc
+        - generic [ref=f7e32]: Challenges (Truth/Dare)
+        - generic [ref=f7e33]: →
+      - button "Tournament Bracket →" [ref=f7e34] [cursor=pointer]:
+        - generic [ref=f7e35]: Tournament Bracket
+        - generic [ref=f7e36]: →
+      - link "Official Rules →" [ref=f7e37] [cursor=pointer]:
+        - /url: /rules
+        - generic [ref=f7e38]: Official Rules
+        - generic [ref=f7e39]: →
+      - button "About DAREDOWN →" [ref=f7e40] [cursor=pointer]:
+        - generic [ref=f7e41]: About DAREDOWN
+        - generic [ref=f7e42]: →
+      - link "Register / Log In →" [ref=f7e43] [cursor=pointer]:
+        - /url: /register
+        - generic [ref=f7e44]: Register / Log In
+        - generic [ref=f7e45]: →
+    - button "Visual Theme BOY" [ref=f7e47] [cursor=pointer]:
+      - generic [ref=f7e48]: Visual Theme
+      - generic [ref=f7e49]: BOY
+  - main [ref=f7e51]:
+    - generic [ref=f7e52]:
+      - generic [ref=f7e53]:
+        - generic [ref=f7e54]:
+          - heading "ADMIN DASHBOARD" [level=1] [ref=f7e58]
+          - paragraph [ref=f7e59]: Real-time tournament engine control and security monitoring
+        - generic [ref=f7e60]:
+          - button "overview" [ref=f7e61] [cursor=pointer]
+          - button "matches" [ref=f7e62] [cursor=pointer]
+          - button "users" [ref=f7e63] [cursor=pointer]
+      - generic [ref=f7e64]:
+        - generic [ref=f7e65]:
+          - generic [ref=f7e66]: Registered Players
+          - generic [ref=f7e67]: 16 / 16
+          - generic [ref=f7e68]: Capacity Full
+        - generic [ref=f7e69]:
+          - generic [ref=f7e70]: Active Round
+          - generic [ref=f7e71]: Round of 16
+          - generic [ref=f7e72]: 8 Live Matches
+        - generic [ref=f7e73]:
+          - generic [ref=f7e74]: Total Prize Pool
+          - generic [ref=f7e75]: £50.00
+          - generic [ref=f7e76]: Escrow Secured
+        - generic [ref=f7e77]:
+          - generic [ref=f7e78]: Security & IP Log
+          - generic [ref=f7e79]: 0 Threats
+          - generic [ref=f7e80]: All Green
+      - generic [ref=f7e81]:
+        - heading "Tournament Bracket Quick Status" [level=2] [ref=f7e82]
+        - table [ref=f7e84]:
+          - rowgroup [ref=f7e85]:
+            - row [ref=f7e86]:
+              - columnheader "Match ID" [ref=f7e87]
+              - columnheader "Contestant A" [ref=f7e88]
+              - columnheader "Contestant B" [ref=f7e89]
+              - columnheader "Status" [ref=f7e90]
+              - columnheader "Winner" [ref=f7e91]
+          - rowgroup [ref=f7e92]:
+            - row [ref=f7e93]:
+              - cell "m-r1-1" [ref=f7e94]
+              - 'cell "Player #1" [ref=f7e95]'
+              - 'cell "Player #2" [ref=f7e96]'
+              - cell "PENDING" [ref=f7e97]
+              - cell "Pending" [ref=f7e98]
+            - row [ref=f7e99]:
+              - cell "m-r1-2" [ref=f7e100]
+              - 'cell "Player #3" [ref=f7e101]'
+              - 'cell "Player #4" [ref=f7e102]'
+              - cell "PENDING" [ref=f7e103]
+              - cell "Pending" [ref=f7e104]
+            - row [ref=f7e105]:
+              - cell "m-r1-3" [ref=f7e106]
+              - 'cell "Player #5" [ref=f7e107]'
+              - 'cell "Player #6" [ref=f7e108]'
+              - cell "PENDING" [ref=f7e109]
+              - cell "Pending" [ref=f7e110]
+            - row [ref=f7e111]:
+              - cell "m-r1-4" [ref=f7e112]
+              - 'cell "Player #7" [ref=f7e113]'
+              - 'cell "Player #8" [ref=f7e114]'
+              - cell "PENDING" [ref=f7e115]
+              - cell "Pending" [ref=f7e116]
+            - row [ref=f7e117]:
+              - cell "m-r1-5" [ref=f7e118]
+              - 'cell "Player #9" [ref=f7e119]'
+              - 'cell "Player #10" [ref=f7e120]'
+              - cell "PENDING" [ref=f7e121]
+              - cell "Pending" [ref=f7e122]
+            - row [ref=f7e123]:
+              - cell "m-r1-6" [ref=f7e124]
+              - 'cell "Player #11" [ref=f7e125]'
+              - 'cell "Player #12" [ref=f7e126]'
+              - cell "PENDING" [ref=f7e127]
+              - cell "Pending" [ref=f7e128]
+  - contentinfo [ref=f7e129]:
+    - img "DAREDOWN" [ref=f7e131]
+    - generic [ref=f7e133]:
+      - generic [ref=f7e134]:
+        - generic [ref=f7e135]: DAREDOWN
+        - generic [ref=f7e136]: TRUTH OR DARE
+        - generic [ref=f7e137]: TOURNAMENT
+      - generic [ref=f7e138]:
+        - link "Rules" [ref=f7e139] [cursor=pointer]:
+          - /url: /rules
+        - link "Bracket" [ref=f7e140] [cursor=pointer]:
+          - /url: /#bracket
+        - link "Challenges" [ref=f7e141] [cursor=pointer]:
+          - /url: /ngc
+        - link "About" [ref=f7e142] [cursor=pointer]:
+          - /url: /#about
+      - generic [ref=f7e143]:
+        - link "Register" [ref=f7e144] [cursor=pointer]:
+          - /url: /register
+        - link "Profile" [ref=f7e145] [cursor=pointer]:
+          - /url: /profile
+      - generic [ref=f7e146]:
+        - generic [ref=f7e147]: Hosted by the crew
+        - generic [ref=f7e148]: 16 Players. £50 Prize Pool. Truth or Dare elimination.

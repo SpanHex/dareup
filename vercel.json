@@ -1,0 +1,137 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/api/auth/:path*",
+      "destination": "/api"
+    },
+    {
+      "source": "/api/auth/(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/api/tournament/:path*",
+      "destination": "/api"
+    },
+    {
+      "source": "/api/tournament/(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/api/scores/:path*",
+      "destination": "/api"
+    },
+    {
+      "source": "/api/scores/(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/api/admin/:path*",
+      "destination": "/api"
+    },
+    {
+      "source": "/api/admin/(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/api/profile/:path*",
+      "destination": "/api"
+    },
+    {
+      "source": "/api/profile/(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "/api"
+    },
+    {
+      "source": "/api/(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/auth/:path*",
+      "destination": "/api"
+    },
+    {
+      "source": "/auth/(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/tournament/:path*",
+      "destination": "/api"
+    },
+    {
+      "source": "/tournament/(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/scores/:path*",
+      "destination": "/api"
+    },
+    {
+      "source": "/scores/(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/site-settings",
+      "destination": "/api"
+    },
+    {
+      "source": "/admin/(users|tournaments|matches|export|diagnostics|security|bracket)(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "no-referrer-when-downgrade"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.css",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/css; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.js",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/javascript; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/_astro/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}

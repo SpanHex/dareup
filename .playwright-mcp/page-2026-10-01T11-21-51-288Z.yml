@@ -1,0 +1,104 @@
+- generic [ref=f4e2]:
+  - banner [ref=f4e3]:
+    - generic [ref=f4e4]:
+      - link "DAREDOWN" [ref=f4e5] [cursor=pointer]:
+        - /url: /
+      - list [ref=f4e6]:
+        - listitem [ref=f4e7]:
+          - link "Challenges" [ref=f4e8] [cursor=pointer]:
+            - /url: /ngc
+        - listitem [ref=f4e9]:
+          - link "Bracket" [ref=f4e10] [cursor=pointer]:
+            - /url: /#bracket
+        - listitem [ref=f4e11]:
+          - link "Rules" [ref=f4e12] [cursor=pointer]:
+            - /url: /rules
+        - listitem [ref=f4e13]:
+          - link "About" [ref=f4e14] [cursor=pointer]:
+            - /url: /#about
+        - listitem [ref=f4e15]:
+          - button "Toggle visual theme" [ref=f4e16] [cursor=pointer]:
+            - generic [ref=f4e18]: BOY
+        - listitem [ref=f4e19]:
+          - link "Register / Log In" [ref=f4e20] [cursor=pointer]:
+            - /url: /register
+  - main [ref=f4e22]:
+    - generic [ref=f4e23]: DAREDOWN // 16 SLOTS // £50 PRIZE
+    - heading "ENTER THE ARENA" [level=1] [ref=f4e26]
+    - paragraph [ref=f4e27]: Register to secure your spot in the live Truth or Dare elimination tournament. 16 players enter, one survives.
+    - tablist [ref=f4e28]:
+      - tab "Register" [selected] [ref=f4e29] [cursor=pointer]
+      - tab "Log In" [ref=f4e30] [cursor=pointer]
+    - generic [ref=f4e31]:
+      - generic [ref=f4e32]:
+        - generic [ref=f4e33]: Username
+        - textbox "Username" [ref=f4e34]:
+          - /placeholder: e.g. daredevil99
+      - generic [ref=f4e35]:
+        - generic [ref=f4e36]: Email Address
+        - textbox "Email Address" [ref=f4e37]:
+          - /placeholder: you@example.com
+      - generic [ref=f4e38]:
+        - generic [ref=f4e39]: Password
+        - textbox "Password" [ref=f4e40]:
+          - /placeholder: Minimum 8 characters
+      - generic [ref=f4e41]:
+        - generic [ref=f4e42]: Discord Username
+        - textbox "Discord Username" [ref=f4e43]:
+          - /placeholder: e.g. shadow#1234 or shadow_user
+      - generic [ref=f4e44]:
+        - generic [ref=f4e45]: Age
+        - spinbutton "Age" [ref=f4e46]
+      - generic [ref=f4e47]:
+        - generic [ref=f4e48]: Tournament Details
+        - generic [ref=f4e49]:
+          - generic [ref=f4e50]:
+            - generic [ref=f4e51]: £0.50
+            - generic [ref=f4e52]: Entry Fee
+          - generic [ref=f4e53]:
+            - generic [ref=f4e54]: £50
+            - generic [ref=f4e55]: Prize Pool
+          - generic [ref=f4e56]:
+            - generic [ref=f4e57]: "16"
+            - generic [ref=f4e58]: Total Players
+        - paragraph [ref=f4e59]: Entry fee is collected in person by the host before Round 1 begins. No online payment required.
+      - generic [ref=f4e60] [cursor=pointer]:
+        - checkbox "I agree to the Event Rules and understand that failure to complete an assigned dare or comply with the host will result in immediate elimination." [ref=f4e61]
+        - generic [ref=f4e62]:
+          - text: I agree to the
+          - link "Event Rules" [ref=f4e63]:
+            - /url: /rules
+          - text: and understand that failure to complete an assigned dare or comply with the host will result in immediate elimination.
+      - button "SUBMIT REGISTRATION" [ref=f4e64] [cursor=pointer]
+      - generic [ref=f4e65]: Or continue with
+      - generic [ref=f4e66]:
+        - link "Discord" [ref=f4e67] [cursor=pointer]:
+          - /url: /auth/discord
+        - link "Google" [ref=f4e69] [cursor=pointer]:
+          - /url: /auth/google
+  - generic [ref=f4e71]:
+    - img "DAREDOWN" [ref=f4e72]
+    - contentinfo [ref=f4e73]:
+      - generic [ref=f4e74]:
+        - generic [ref=f4e75]:
+          - generic [ref=f4e76]: DAREDOWN
+          - generic [ref=f4e77]: TRUTH OR DARE
+          - generic [ref=f4e78]: TOURNAMENT
+        - list [ref=f4e79]:
+          - listitem [ref=f4e80]:
+            - link "Rules" [ref=f4e81] [cursor=pointer]:
+              - /url: /rules
+          - listitem [ref=f4e82]:
+            - link "Bracket" [ref=f4e83] [cursor=pointer]:
+              - /url: /#bracket
+          - listitem [ref=f4e84]:
+            - link "Challenges" [ref=f4e85] [cursor=pointer]:
+              - /url: /ngc
+          - listitem [ref=f4e86]:
+            - link "About" [ref=f4e87] [cursor=pointer]:
+              - /url: /#about
+        - list [ref=f4e88]:
+          - listitem [ref=f4e89]:
+            - link "Register" [ref=f4e90] [cursor=pointer]:
+              - /url: /register
+        - generic [ref=f4e91]: Hosted by the crew

@@ -1,0 +1,106 @@
+- generic [ref=f4e3]:
+  - banner [ref=f4e4]:
+    - generic [ref=f4e5]:
+      - link "DAREDOWN" [ref=f4e6] [cursor=pointer]:
+        - /url: /
+      - navigation "Main Navigation" [ref=f4e7]:
+        - list [ref=f4e8]:
+          - listitem [ref=f4e9]:
+            - link "Challenges" [ref=f4e10] [cursor=pointer]:
+              - /url: /ngc
+          - listitem [ref=f4e11]:
+            - button "Bracket" [ref=f4e12] [cursor=pointer]
+          - listitem [ref=f4e13]:
+            - link "Rules" [ref=f4e14] [cursor=pointer]:
+              - /url: /rules
+          - listitem [ref=f4e15]:
+            - button "About" [ref=f4e16] [cursor=pointer]
+          - listitem [ref=f4e17]:
+            - button "Toggle theme (currently boy)" [ref=f4e18] [cursor=pointer]:
+              - generic [ref=f4e20]: BOY
+          - listitem [ref=f4e21]:
+            - link "Register / Log In" [ref=f4e22] [cursor=pointer]:
+              - /url: /register
+  - dialog "Mobile Navigation" [ref=f4e23]:
+    - generic [ref=f4e24]:
+      - generic [ref=f4e25]: DAREDOWN
+      - button "Close menu" [ref=f4e26] [cursor=pointer]
+    - navigation [ref=f4e30]:
+      - link "Challenges (Truth/Dare) →" [ref=f4e31] [cursor=pointer]:
+        - /url: /ngc
+        - generic [ref=f4e32]: Challenges (Truth/Dare)
+        - generic [ref=f4e33]: →
+      - button "Tournament Bracket →" [ref=f4e34] [cursor=pointer]:
+        - generic [ref=f4e35]: Tournament Bracket
+        - generic [ref=f4e36]: →
+      - link "Official Rules →" [ref=f4e37] [cursor=pointer]:
+        - /url: /rules
+        - generic [ref=f4e38]: Official Rules
+        - generic [ref=f4e39]: →
+      - button "About DAREDOWN →" [ref=f4e40] [cursor=pointer]:
+        - generic [ref=f4e41]: About DAREDOWN
+        - generic [ref=f4e42]: →
+      - link "Register / Log In →" [ref=f4e43] [cursor=pointer]:
+        - /url: /register
+        - generic [ref=f4e44]: Register / Log In
+        - generic [ref=f4e45]: →
+    - button "Visual Theme BOY" [ref=f4e47] [cursor=pointer]:
+      - generic [ref=f4e48]: Visual Theme
+      - generic [ref=f4e49]: BOY
+  - main [ref=f4e51]:
+    - generic [ref=f4e52]:
+      - generic [ref=f4e53]:
+        - generic [ref=f4e54]: Official Guidelines
+        - heading "EVENT RULES" [level=1] [ref=f4e55]
+        - paragraph [ref=f4e56]: Please read these guidelines carefully before competing. Failure to comply may result in immediate elimination.
+      - generic [ref=f4e57]:
+        - generic [ref=f4e58]:
+          - heading "1. Deadlines & Check-In" [level=2] [ref=f4e64]
+          - generic [ref=f4e65]:
+            - paragraph [ref=f4e66]: Tournament check-in begins 30 minutes before the scheduled start time. Participants who fail to check in by the deadline will be disqualified and replaced by alternates.
+            - paragraph [ref=f4e67]: If a participant fails to show up for their match and does not notify the hosts in advance, they forfeit their spot immediately and will be excluded from future tournaments.
+        - generic [ref=f4e68]:
+          - heading "2. How Challenges Work" [level=2] [ref=f4e73]
+          - generic [ref=f4e74]:
+            - paragraph [ref=f4e75]: Each match features two competitors paired in the tournament bracket. The host randomly assigns either a Truth question or a Dare challenge from the approved event vault.
+            - paragraph [ref=f4e76]: Players must complete their challenge in full to remain eligible for victory. Both the audience and the jury score the attempt. The player with the lower aggregate score is eliminated.
+        - generic [ref=f4e77]:
+          - heading "3. Fair Play & Conduct" [level=2] [ref=f4e82]
+          - generic [ref=f4e83]:
+            - paragraph [ref=f4e84]: All participants must treat other players, spectators, and tournament officials with respect. Toxic harassment, bad-faith stalling, or malicious conduct results in immediate disqualification.
+            - paragraph [ref=f4e85]: Challenges must be performed authentically without pre-recorded stand-ins or automated filters.
+        - generic [ref=f4e86]:
+          - heading "4. Tournament Progression" [level=2] [ref=f4e94]
+          - generic [ref=f4e95]:
+            - paragraph [ref=f4e96]: "The tournament consists of 4 single-elimination rounds: Round of 16 (16 players), Quarterfinals (8 players), Semifinals (4 players), and The Final (2 players)."
+            - paragraph [ref=f4e97]: Refusing a dare without an approved safety objection incurs an immediate forfeit. The host reserves the right to issue a single substitution if an external issue prevents completion.
+        - generic [ref=f4e98]:
+          - heading "5. Prizes & Winner Take All" [level=2] [ref=f4e107]
+          - generic [ref=f4e108]:
+            - paragraph [ref=f4e109]: The champion who wins the Final round takes the entire £50 prize pool.
+            - paragraph [ref=f4e110]: Entry fee of £0.50 is collected in person at check-in. Entry fees are non-refundable once the tournament bracket is generated.
+            - paragraph [ref=f4e111]: The host and designated jury hold final authority over scoring disputes and rule clarifications.
+  - contentinfo [ref=f4e112]:
+    - img "DAREDOWN" [ref=f4e114]
+    - generic [ref=f4e116]:
+      - generic [ref=f4e117]:
+        - generic [ref=f4e118]: DAREDOWN
+        - generic [ref=f4e119]: TRUTH OR DARE
+        - generic [ref=f4e120]: TOURNAMENT
+      - generic [ref=f4e121]:
+        - link "Rules" [ref=f4e122] [cursor=pointer]:
+          - /url: /rules
+        - link "Bracket" [ref=f4e123] [cursor=pointer]:
+          - /url: /#bracket
+        - link "Challenges" [ref=f4e124] [cursor=pointer]:
+          - /url: /ngc
+        - link "About" [ref=f4e125] [cursor=pointer]:
+          - /url: /#about
+      - generic [ref=f4e126]:
+        - link "Register" [ref=f4e127] [cursor=pointer]:
+          - /url: /register
+        - link "Profile" [ref=f4e128] [cursor=pointer]:
+          - /url: /profile
+      - generic [ref=f4e129]:
+        - generic [ref=f4e130]: Hosted by the crew
+        - generic [ref=f4e131]: 16 Players. £50 Prize Pool. Truth or Dare elimination.

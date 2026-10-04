@@ -1,0 +1,52 @@
+- generic [ref=f4e2]:
+  - banner [ref=f4e3]:
+    - generic [ref=f4e4]:
+      - link "DAREDOWN" [ref=f4e5] [cursor=pointer]:
+        - /url: /
+      - list [ref=f4e6]:
+        - listitem [ref=f4e7]:
+          - link "Challenges" [ref=f4e8] [cursor=pointer]:
+            - /url: /ngc
+        - listitem [ref=f4e9]:
+          - link "Bracket" [ref=f4e10] [cursor=pointer]:
+            - /url: /#bracket
+        - listitem [ref=f4e11]:
+          - link "Rules" [ref=f4e12] [cursor=pointer]:
+            - /url: /rules
+        - listitem [ref=f4e13]:
+          - link "About" [ref=f4e14] [cursor=pointer]:
+            - /url: /#about
+        - listitem [ref=f4e15]:
+          - button "Toggle visual theme" [ref=f4e16] [cursor=pointer]:
+            - generic [ref=f4e18]: BOY
+        - listitem [ref=f4e19]:
+          - link "Register / Log In" [ref=f4e20] [cursor=pointer]:
+            - /url: /register
+  - main [ref=f4e21]:
+    - paragraph [ref=f4e24]: Checking your authorization...
+  - generic [ref=f4e25]:
+    - img "DAREDOWN" [ref=f4e26]
+    - contentinfo [ref=f4e27]:
+      - generic [ref=f4e28]:
+        - generic [ref=f4e29]:
+          - generic [ref=f4e30]: DAREDOWN
+          - generic [ref=f4e31]: TRUTH OR DARE
+          - generic [ref=f4e32]: TOURNAMENT
+        - list [ref=f4e33]:
+          - listitem [ref=f4e34]:
+            - link "Rules" [ref=f4e35] [cursor=pointer]:
+              - /url: /rules
+          - listitem [ref=f4e36]:
+            - link "Bracket" [ref=f4e37] [cursor=pointer]:
+              - /url: /#bracket
+          - listitem [ref=f4e38]:
+            - link "Challenges" [ref=f4e39] [cursor=pointer]:
+              - /url: /ngc
+          - listitem [ref=f4e40]:
+            - link "About" [ref=f4e41] [cursor=pointer]:
+              - /url: /#about
+        - list [ref=f4e42]:
+          - listitem [ref=f4e43]:
+            - link "Register" [ref=f4e44] [cursor=pointer]:
+              - /url: /register
+        - generic [ref=f4e45]: Hosted by the crew

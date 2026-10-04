@@ -1,0 +1,215 @@
+- generic [ref=f3e2]:
+  - banner [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - link "DAREDOWN" [ref=f3e5] [cursor=pointer]:
+        - /url: /
+      - list [ref=f3e6]:
+        - listitem [ref=f3e7]:
+          - link "Challenges" [ref=f3e8] [cursor=pointer]:
+            - /url: /ngc
+        - listitem [ref=f3e9]:
+          - link "Bracket" [ref=f3e10] [cursor=pointer]:
+            - /url: /#bracket
+        - listitem [ref=f3e11]:
+          - link "Rules" [ref=f3e12] [cursor=pointer]:
+            - /url: /rules
+        - listitem [ref=f3e13]:
+          - link "About" [ref=f3e14] [cursor=pointer]:
+            - /url: /#about
+        - listitem [ref=f3e15]:
+          - button "Toggle visual theme" [ref=f3e16] [cursor=pointer]:
+            - generic [ref=f3e18]: BOY
+        - listitem [ref=f3e19]:
+          - link "Register / Log In" [ref=f3e20] [cursor=pointer]:
+            - /url: /register
+  - main [ref=f3e22]:
+    - generic [ref=f3e23]:
+      - generic [ref=f3e24]: DAREDOWN // CHALLENGES POOL
+      - heading "CHALLENGES" [level=1] [ref=f3e25]
+      - paragraph [ref=f3e26]: The complete pool of Truth & Dare challenges used in DAREDOWN tournament matches. Randomly assigned by the host. Complete the dare or face elimination.
+    - generic [ref=f3e27]:
+      - button "ALL (30)" [ref=f3e28] [cursor=pointer]
+      - button "TRUTH (15)" [ref=f3e29] [cursor=pointer]
+      - button "DARE (15)" [ref=f3e30] [cursor=pointer]
+    - generic [ref=f3e31]:
+      - article [ref=f3e32]:
+        - generic [ref=f3e33]:
+          - generic [ref=f3e34]: TRUTH
+          - generic "Difficulty 1 of 3" [ref=f3e35]
+        - paragraph [ref=f3e39]: What's the most embarrassing thing you've done in public?
+      - article [ref=f3e40]:
+        - generic [ref=f3e41]:
+          - generic [ref=f3e42]: TRUTH
+          - generic "Difficulty 2 of 3" [ref=f3e43]
+        - paragraph [ref=f3e47]: What's a secret you've never told your closest friend?
+      - article [ref=f3e48]:
+        - generic [ref=f3e49]:
+          - generic [ref=f3e50]: TRUTH
+          - generic "Difficulty 2 of 3" [ref=f3e51]
+        - paragraph [ref=f3e55]: Have you ever blamed someone else for something you did? What happened?
+      - article [ref=f3e56]:
+        - generic [ref=f3e57]:
+          - generic [ref=f3e58]: TRUTH
+          - generic "Difficulty 2 of 3" [ref=f3e59]
+        - paragraph [ref=f3e63]: What's the worst lie you've ever told?
+      - article [ref=f3e64]:
+        - generic [ref=f3e65]:
+          - generic [ref=f3e66]: TRUTH
+          - generic "Difficulty 1 of 3" [ref=f3e67]
+        - paragraph [ref=f3e71]: What's your most embarrassing memory from school?
+      - article [ref=f3e72]:
+        - generic [ref=f3e73]:
+          - generic [ref=f3e74]: TRUTH
+          - generic "Difficulty 1 of 3" [ref=f3e75]
+        - paragraph [ref=f3e79]: Have you ever done something just to impress someone? Did it work?
+      - article [ref=f3e80]:
+        - generic [ref=f3e81]:
+          - generic [ref=f3e82]: TRUTH
+          - generic "Difficulty 1 of 3" [ref=f3e83]
+        - paragraph [ref=f3e87]: What's a talent you have that nobody knows about?
+      - article [ref=f3e88]:
+        - generic [ref=f3e89]:
+          - generic [ref=f3e90]: TRUTH
+          - generic "Difficulty 1 of 3" [ref=f3e91]
+        - paragraph [ref=f3e95]: What's the most ridiculous thing you've ever cried about?
+      - article [ref=f3e96]:
+        - generic [ref=f3e97]:
+          - generic [ref=f3e98]: TRUTH
+          - generic "Difficulty 2 of 3" [ref=f3e99]
+        - paragraph [ref=f3e103]: If you had to pick one person in this room to swap lives with, who would it be and why?
+      - article [ref=f3e104]:
+        - generic [ref=f3e105]:
+          - generic [ref=f3e106]: TRUTH
+          - generic "Difficulty 2 of 3" [ref=f3e107]
+        - paragraph [ref=f3e111]: What's the pettiest thing you've ever done to get back at someone?
+      - article [ref=f3e112]:
+        - generic [ref=f3e113]:
+          - generic [ref=f3e114]: TRUTH
+          - generic "Difficulty 2 of 3" [ref=f3e115]
+        - paragraph [ref=f3e119]: What's a habit you have that you'd be embarrassed if people found out about?
+      - article [ref=f3e120]:
+        - generic [ref=f3e121]:
+          - generic [ref=f3e122]: TRUTH
+          - generic "Difficulty 3 of 3" [ref=f3e123]
+        - paragraph [ref=f3e127]: Who in this room would you trust least in a survival situation?
+      - article [ref=f3e128]:
+        - generic [ref=f3e129]:
+          - generic [ref=f3e130]: TRUTH
+          - generic "Difficulty 3 of 3" [ref=f3e131]
+        - paragraph [ref=f3e135]: What's the biggest mistake you've made and never admitted to anyone?
+      - article [ref=f3e136]:
+        - generic [ref=f3e137]:
+          - generic [ref=f3e138]: TRUTH
+          - generic "Difficulty 1 of 3" [ref=f3e139]
+        - paragraph [ref=f3e143]: Have you ever pretended to be sick to get out of something? What was it?
+      - article [ref=f3e144]:
+        - generic [ref=f3e145]:
+          - generic [ref=f3e146]: TRUTH
+          - generic "Difficulty 2 of 3" [ref=f3e147]
+        - paragraph [ref=f3e151]: What's the strangest thing you've ever searched on Google?
+      - article [ref=f3e152]:
+        - generic [ref=f3e153]:
+          - generic [ref=f3e154]: DARE
+          - generic "Difficulty 1 of 3" [ref=f3e155]
+        - paragraph [ref=f3e159]: Do your best impression of someone in this room. They have to guess who it is.
+      - article [ref=f3e160]:
+        - generic [ref=f3e161]:
+          - generic [ref=f3e162]: DARE
+          - generic "Difficulty 1 of 3" [ref=f3e163]
+        - paragraph [ref=f3e167]: "Sing the chorus of the last song you listened to: full volume, no skipping."
+      - article [ref=f3e168]:
+        - generic [ref=f3e169]:
+          - generic [ref=f3e170]: DARE
+          - generic "Difficulty 2 of 3" [ref=f3e171]
+        - paragraph [ref=f3e175]: Let someone in the room style your hair however they want for the rest of the round.
+      - article [ref=f3e176]:
+        - generic [ref=f3e177]:
+          - generic [ref=f3e178]: DARE
+          - generic "Difficulty 3 of 3" [ref=f3e179]
+        - paragraph [ref=f3e183]: Text someone you haven't spoken to in over a year, right now, and say 'I miss you'.
+      - article [ref=f3e184]:
+        - generic [ref=f3e185]:
+          - generic [ref=f3e186]: DARE
+          - generic "Difficulty 1 of 3" [ref=f3e187]
+        - paragraph [ref=f3e191]: Speak in an accent chosen by the host for the next 3 minutes.
+      - article [ref=f3e192]:
+        - generic [ref=f3e193]:
+          - generic [ref=f3e194]: DARE
+          - generic "Difficulty 3 of 3" [ref=f3e195]
+        - paragraph [ref=f3e199]: Call a family member and convince them you've joined a band.
+      - article [ref=f3e200]:
+        - generic [ref=f3e201]:
+          - generic [ref=f3e202]: DARE
+          - generic "Difficulty 1 of 3" [ref=f3e203]
+        - paragraph [ref=f3e207]: Do 20 jumping jacks while narrating what you're doing in a sports commentary voice.
+      - article [ref=f3e208]:
+        - generic [ref=f3e209]:
+          - generic [ref=f3e210]: DARE
+          - generic "Difficulty 3 of 3" [ref=f3e211]
+        - paragraph [ref=f3e215]: Let the room write a status on your social media of their choosing. It must stay up for 10 minutes.
+      - article [ref=f3e216]:
+        - generic [ref=f3e217]:
+          - generic [ref=f3e218]: DARE
+          - generic "Difficulty 2 of 3" [ref=f3e219]
+        - paragraph [ref=f3e223]: Hold a plank position for 30 seconds while everyone counts down.
+      - article [ref=f3e224]:
+        - generic [ref=f3e225]:
+          - generic [ref=f3e226]: DARE
+          - generic "Difficulty 1 of 3" [ref=f3e227]
+        - paragraph [ref=f3e231]: Recreate the most iconic photo you've taken. Do your best to get it exactly right.
+      - article [ref=f3e232]:
+        - generic [ref=f3e233]:
+          - generic [ref=f3e234]: DARE
+          - generic "Difficulty 2 of 3" [ref=f3e235]
+        - paragraph [ref=f3e239]: Eat a snack chosen by the group. No complaints, no negotiations.
+      - article [ref=f3e240]:
+        - generic [ref=f3e241]:
+          - generic [ref=f3e242]: DARE
+          - generic "Difficulty 3 of 3" [ref=f3e243]
+        - paragraph [ref=f3e247]: Let the host read your most recent 5 text messages out loud.
+      - article [ref=f3e248]:
+        - generic [ref=f3e249]:
+          - generic [ref=f3e250]: DARE
+          - generic "Difficulty 1 of 3" [ref=f3e251]
+        - paragraph [ref=f3e255]: Stand up and do your best catwalk across the room. Do it twice.
+      - article [ref=f3e256]:
+        - generic [ref=f3e257]:
+          - generic [ref=f3e258]: DARE
+          - generic "Difficulty 2 of 3" [ref=f3e259]
+        - paragraph [ref=f3e263]: "Freestyle rap for 30 seconds using the words: 'dare', 'tournament', and 'champion'."
+      - article [ref=f3e264]:
+        - generic [ref=f3e265]:
+          - generic [ref=f3e266]: DARE
+          - generic "Difficulty 2 of 3" [ref=f3e267]
+        - paragraph [ref=f3e271]: "Say something genuinely nice about every person watching: one sentence each."
+    - generic [ref=f3e272]:
+      - heading "READY TO FACE THE DARE?" [level=2] [ref=f3e273]
+      - paragraph [ref=f3e274]: 16 players enter. Random matchups. Last one standing takes £50.
+      - link "REGISTER NOW" [ref=f3e275] [cursor=pointer]:
+        - /url: /register
+  - generic [ref=f3e276]:
+    - img "DAREDOWN" [ref=f3e277]
+    - contentinfo [ref=f3e278]:
+      - generic [ref=f3e279]:
+        - generic [ref=f3e280]:
+          - generic [ref=f3e281]: DAREDOWN
+          - generic [ref=f3e282]: TRUTH OR DARE
+          - generic [ref=f3e283]: TOURNAMENT
+        - list [ref=f3e284]:
+          - listitem [ref=f3e285]:
+            - link "Rules" [ref=f3e286] [cursor=pointer]:
+              - /url: /rules
+          - listitem [ref=f3e287]:
+            - link "Bracket" [ref=f3e288] [cursor=pointer]:
+              - /url: /#bracket
+          - listitem [ref=f3e289]:
+            - link "Challenges" [ref=f3e290] [cursor=pointer]:
+              - /url: /ngc
+          - listitem [ref=f3e291]:
+            - link "About" [ref=f3e292] [cursor=pointer]:
+              - /url: /#about
+        - list [ref=f3e293]:
+          - listitem [ref=f3e294]:
+            - link "Register" [ref=f3e295] [cursor=pointer]:
+              - /url: /register
+        - generic [ref=f3e296]: Hosted by the crew

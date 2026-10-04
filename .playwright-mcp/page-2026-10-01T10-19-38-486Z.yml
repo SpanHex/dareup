@@ -1,0 +1,115 @@
+- generic [ref=f6e3]:
+  - banner [ref=f6e4]:
+    - generic [ref=f6e5]:
+      - link "DAREDOWN" [ref=f6e6] [cursor=pointer]:
+        - /url: /
+      - navigation "Main Navigation" [ref=f6e7]:
+        - list [ref=f6e8]:
+          - listitem [ref=f6e9]:
+            - link "Challenges" [ref=f6e10] [cursor=pointer]:
+              - /url: /ngc
+          - listitem [ref=f6e11]:
+            - button "Bracket" [ref=f6e12] [cursor=pointer]
+          - listitem [ref=f6e13]:
+            - link "Rules" [ref=f6e14] [cursor=pointer]:
+              - /url: /rules
+          - listitem [ref=f6e15]:
+            - button "About" [ref=f6e16] [cursor=pointer]
+          - listitem [ref=f6e17]:
+            - button "Toggle theme (currently boy)" [ref=f6e18] [cursor=pointer]:
+              - generic [ref=f6e20]: BOY
+          - listitem [ref=f6e21]:
+            - link "Register / Log In" [ref=f6e22] [cursor=pointer]:
+              - /url: /register
+  - dialog "Mobile Navigation" [ref=f6e23]:
+    - generic [ref=f6e24]:
+      - generic [ref=f6e25]: DAREDOWN
+      - button "Close menu" [ref=f6e26] [cursor=pointer]
+    - navigation [ref=f6e30]:
+      - link "Challenges (Truth/Dare) →" [ref=f6e31] [cursor=pointer]:
+        - /url: /ngc
+        - generic [ref=f6e32]: Challenges (Truth/Dare)
+        - generic [ref=f6e33]: →
+      - button "Tournament Bracket →" [ref=f6e34] [cursor=pointer]:
+        - generic [ref=f6e35]: Tournament Bracket
+        - generic [ref=f6e36]: →
+      - link "Official Rules →" [ref=f6e37] [cursor=pointer]:
+        - /url: /rules
+        - generic [ref=f6e38]: Official Rules
+        - generic [ref=f6e39]: →
+      - button "About DAREDOWN →" [ref=f6e40] [cursor=pointer]:
+        - generic [ref=f6e41]: About DAREDOWN
+        - generic [ref=f6e42]: →
+      - link "Register / Log In →" [ref=f6e43] [cursor=pointer]:
+        - /url: /register
+        - generic [ref=f6e44]: Register / Log In
+        - generic [ref=f6e45]: →
+    - button "Visual Theme BOY" [ref=f6e47] [cursor=pointer]:
+      - generic [ref=f6e48]: Visual Theme
+      - generic [ref=f6e49]: BOY
+  - main [ref=f6e51]:
+    - generic [ref=f6e52]:
+      - generic [ref=f6e53]:
+        - text: Official Host Console
+        - heading "HOST & JURY PANEL" [level=1] [ref=f6e54]
+        - paragraph [ref=f6e55]: Evaluate and score live challenge attempts. All jury decisions advance tournament bracket outcomes.
+      - generic [ref=f6e56]:
+        - generic [ref=f6e57]:
+          - generic [ref=f6e58]: Select Live Match
+          - combobox [ref=f6e59]:
+            - 'option "m-r1-1: Player #1 vs Player #2" [selected]'
+            - 'option "m-r1-2: Player #3 vs Player #4"'
+            - 'option "m-r1-3: Player #5 vs Player #6"'
+            - 'option "m-r1-4: Player #7 vs Player #8"'
+            - 'option "m-r1-5: Player #9 vs Player #10"'
+            - 'option "m-r1-6: Player #11 vs Player #12"'
+            - 'option "m-r1-7: Player #13 vs Player #14"'
+            - 'option "m-r1-8: Player #15 vs Player #16"'
+            - 'option "m-r2-1: TBD vs TBD"'
+            - 'option "m-r2-2: TBD vs TBD"'
+            - 'option "m-r2-3: TBD vs TBD"'
+            - 'option "m-r2-4: TBD vs TBD"'
+            - 'option "m-r3-1: TBD vs TBD"'
+            - 'option "m-r3-2: TBD vs TBD"'
+            - 'option "m-r4-1: TBD vs TBD"'
+        - generic [ref=f6e60]:
+          - generic [ref=f6e61]:
+            - generic [ref=f6e62]:
+              - generic [ref=f6e63]: Challenge Completion (Pass/Fail)
+              - generic [ref=f6e64]: COMPLETED (1)
+            - slider [ref=f6e65]: "1"
+          - generic [ref=f6e66]:
+            - generic [ref=f6e67]:
+              - generic [ref=f6e68]: Audacity / Execution (0 - 10)
+              - generic [ref=f6e69]: 8 / 10
+            - slider [ref=f6e70]: "8"
+          - generic [ref=f6e71]:
+            - generic [ref=f6e72]:
+              - generic [ref=f6e73]: Audience Entertainment Factor (0 - 10)
+              - generic [ref=f6e74]: 9 / 10
+            - slider [ref=f6e75]: "9"
+          - button "SUBMIT JURY SCORE" [ref=f6e76] [cursor=pointer]
+  - contentinfo [ref=f6e81]:
+    - img "DAREDOWN" [ref=f6e83]
+    - generic [ref=f6e85]:
+      - generic [ref=f6e86]:
+        - generic [ref=f6e87]: DAREDOWN
+        - generic [ref=f6e88]: TRUTH OR DARE
+        - generic [ref=f6e89]: TOURNAMENT
+      - generic [ref=f6e90]:
+        - link "Rules" [ref=f6e91] [cursor=pointer]:
+          - /url: /rules
+        - link "Bracket" [ref=f6e92] [cursor=pointer]:
+          - /url: /#bracket
+        - link "Challenges" [ref=f6e93] [cursor=pointer]:
+          - /url: /ngc
+        - link "About" [ref=f6e94] [cursor=pointer]:
+          - /url: /#about
+      - generic [ref=f6e95]:
+        - link "Register" [ref=f6e96] [cursor=pointer]:
+          - /url: /register
+        - link "Profile" [ref=f6e97] [cursor=pointer]:
+          - /url: /profile
+      - generic [ref=f6e98]:
+        - generic [ref=f6e99]: Hosted by the crew
+        - generic [ref=f6e100]: 16 Players. £50 Prize Pool. Truth or Dare elimination.

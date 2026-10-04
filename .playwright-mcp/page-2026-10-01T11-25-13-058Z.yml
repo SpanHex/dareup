@@ -1,0 +1,204 @@
+- generic [ref=f6e3]:
+  - complementary [ref=f6e8]:
+    - link "DAREDOWN Admin" [ref=f6e9] [cursor=pointer]:
+      - /url: /
+    - navigation [ref=f6e10]:
+      - button "Overview" [ref=f6e11] [cursor=pointer]
+      - button "Bracket Manager" [active] [ref=f6e12] [cursor=pointer]
+      - button "Users" [ref=f6e13] [cursor=pointer]
+    - link "← Logout" [ref=f6e15] [cursor=pointer]:
+      - /url: /api/auth/logout
+  - main [ref=f6e16]:
+    - generic [ref=f6e21]:
+      - generic [ref=f6e22]:
+        - generic [ref=f6e23]:
+          - heading "Tournament Bracket Manager" [level=1] [ref=f6e24]
+          - paragraph [ref=f6e25]: Graphical 16-player tournament bracket. Drag registered users onto bracket slots, drag from slot to slot, or use accessible click controls.
+        - generic [ref=f6e26]:
+          - generic [ref=f6e27]: 0 / 16 Slots Occupied
+          - button "↻ Refresh" [ref=f6e28] [cursor=pointer]
+      - generic [ref=f6e29]:
+        - generic [ref=f6e30]:
+          - heading "Registered Users (0)" [level=2] [ref=f6e32]
+          - textbox "Filter users..." [ref=f6e34]
+          - generic [ref=f6e35]: No registered users found.
+        - generic [ref=f6e38]:
+          - generic [ref=f6e39]:
+            - generic [ref=f6e40]: Round 1 (Round of 16)
+            - generic [ref=f6e41]:
+              - generic [ref=f6e42]:
+                - generic [ref=f6e43]:
+                  - generic [ref=f6e44]: "Match #1"
+                  - text: 1v1
+                - generic [ref=f6e45]:
+                  - generic [ref=f6e46]:
+                    - generic [ref=f6e47]: "#1"
+                    - generic [ref=f6e48]: "#"
+                    - text: "Player #1"
+                  - button "+ Assign" [ref=f6e50]
+                - generic [ref=f6e51]:
+                  - generic [ref=f6e52]:
+                    - generic [ref=f6e53]: "#2"
+                    - generic [ref=f6e54]: "#"
+                    - text: "Player #2"
+                  - button "+ Assign" [ref=f6e56]
+              - generic [ref=f6e57]:
+                - generic [ref=f6e58]:
+                  - generic [ref=f6e59]: "Match #2"
+                  - text: 1v1
+                - generic [ref=f6e60]:
+                  - generic [ref=f6e61]:
+                    - generic [ref=f6e62]: "#3"
+                    - generic [ref=f6e63]: "#"
+                    - text: "Player #3"
+                  - button "+ Assign" [ref=f6e65]
+                - generic [ref=f6e66]:
+                  - generic [ref=f6e67]:
+                    - generic [ref=f6e68]: "#4"
+                    - generic [ref=f6e69]: "#"
+                    - text: "Player #4"
+                  - button "+ Assign" [ref=f6e71]
+              - generic [ref=f6e72]:
+                - generic [ref=f6e73]:
+                  - generic [ref=f6e74]: "Match #3"
+                  - text: 1v1
+                - generic [ref=f6e75]:
+                  - generic [ref=f6e76]:
+                    - generic [ref=f6e77]: "#5"
+                    - generic [ref=f6e78]: "#"
+                    - text: "Player #5"
+                  - button "+ Assign" [ref=f6e80]
+                - generic [ref=f6e81]:
+                  - generic [ref=f6e82]:
+                    - generic [ref=f6e83]: "#6"
+                    - generic [ref=f6e84]: "#"
+                    - text: "Player #6"
+                  - button "+ Assign" [ref=f6e86]
+              - generic [ref=f6e87]:
+                - generic [ref=f6e88]:
+                  - generic [ref=f6e89]: "Match #4"
+                  - text: 1v1
+                - generic [ref=f6e90]:
+                  - generic [ref=f6e91]:
+                    - generic [ref=f6e92]: "#7"
+                    - generic [ref=f6e93]: "#"
+                    - text: "Player #7"
+                  - button "+ Assign" [ref=f6e95]
+                - generic [ref=f6e96]:
+                  - generic [ref=f6e97]:
+                    - generic [ref=f6e98]: "#8"
+                    - generic [ref=f6e99]: "#"
+                    - text: "Player #8"
+                  - button "+ Assign" [ref=f6e101]
+              - generic [ref=f6e102]:
+                - generic [ref=f6e103]:
+                  - generic [ref=f6e104]: "Match #5"
+                  - text: 1v1
+                - generic [ref=f6e105]:
+                  - generic [ref=f6e106]:
+                    - generic [ref=f6e107]: "#9"
+                    - generic [ref=f6e108]: "#"
+                    - text: "Player #9"
+                  - button "+ Assign" [ref=f6e110]
+                - generic [ref=f6e111]:
+                  - generic [ref=f6e112]:
+                    - generic [ref=f6e113]: "#10"
+                    - generic [ref=f6e114]: "#"
+                    - text: "Player #10"
+                  - button "+ Assign" [ref=f6e116]
+              - generic [ref=f6e117]:
+                - generic [ref=f6e118]:
+                  - generic [ref=f6e119]: "Match #6"
+                  - text: 1v1
+                - generic [ref=f6e120]:
+                  - generic [ref=f6e121]:
+                    - generic [ref=f6e122]: "#11"
+                    - generic [ref=f6e123]: "#"
+                    - text: "Player #11"
+                  - button "+ Assign" [ref=f6e125]
+                - generic [ref=f6e126]:
+                  - generic [ref=f6e127]:
+                    - generic [ref=f6e128]: "#12"
+                    - generic [ref=f6e129]: "#"
+                    - text: "Player #12"
+                  - button "+ Assign" [ref=f6e131]
+              - generic [ref=f6e132]:
+                - generic [ref=f6e133]:
+                  - generic [ref=f6e134]: "Match #7"
+                  - text: 1v1
+                - generic [ref=f6e135]:
+                  - generic [ref=f6e136]:
+                    - generic [ref=f6e137]: "#13"
+                    - generic [ref=f6e138]: "#"
+                    - text: "Player #13"
+                  - button "+ Assign" [ref=f6e140]
+                - generic [ref=f6e141]:
+                  - generic [ref=f6e142]:
+                    - generic [ref=f6e143]: "#14"
+                    - generic [ref=f6e144]: "#"
+                    - text: "Player #14"
+                  - button "+ Assign" [ref=f6e146]
+              - generic [ref=f6e147]:
+                - generic [ref=f6e148]:
+                  - generic [ref=f6e149]: "Match #8"
+                  - text: 1v1
+                - generic [ref=f6e150]:
+                  - generic [ref=f6e151]:
+                    - generic [ref=f6e152]: "#15"
+                    - generic [ref=f6e153]: "#"
+                    - text: "Player #15"
+                  - button "+ Assign" [ref=f6e155]
+                - generic [ref=f6e156]:
+                  - generic [ref=f6e157]:
+                    - generic [ref=f6e158]: "#16"
+                    - generic [ref=f6e159]: "#"
+                    - text: "Player #16"
+                  - button "+ Assign" [ref=f6e161]
+          - generic [ref=f6e162]:
+            - generic [ref=f6e163]: Quarterfinals
+            - generic [ref=f6e164]:
+              - generic [ref=f6e165]:
+                - generic [ref=f6e166]:
+                  - generic [ref=f6e167]: "Match #1"
+                  - text: PENDING
+                - generic [ref=f6e168]: AWinner TBD
+                - generic [ref=f6e170]: BWinner TBD
+              - generic [ref=f6e172]:
+                - generic [ref=f6e173]:
+                  - generic [ref=f6e174]: "Match #2"
+                  - text: PENDING
+                - generic [ref=f6e175]: AWinner TBD
+                - generic [ref=f6e177]: BWinner TBD
+              - generic [ref=f6e179]:
+                - generic [ref=f6e180]:
+                  - generic [ref=f6e181]: "Match #3"
+                  - text: PENDING
+                - generic [ref=f6e182]: AWinner TBD
+                - generic [ref=f6e184]: BWinner TBD
+              - generic [ref=f6e186]:
+                - generic [ref=f6e187]:
+                  - generic [ref=f6e188]: "Match #4"
+                  - text: PENDING
+                - generic [ref=f6e189]: AWinner TBD
+                - generic [ref=f6e191]: BWinner TBD
+          - generic [ref=f6e193]:
+            - generic [ref=f6e194]: Semifinals
+            - generic [ref=f6e195]:
+              - generic [ref=f6e196]:
+                - generic [ref=f6e197]:
+                  - generic [ref=f6e198]: "Match #1"
+                  - text: PENDING
+                - generic [ref=f6e199]: AWinner TBD
+                - generic [ref=f6e201]: BWinner TBD
+              - generic [ref=f6e203]:
+                - generic [ref=f6e204]:
+                  - generic [ref=f6e205]: "Match #2"
+                  - text: PENDING
+                - generic [ref=f6e206]: AWinner TBD
+                - generic [ref=f6e208]: BWinner TBD
+          - generic [ref=f6e210]:
+            - generic [ref=f6e211]: Grand Final
+            - generic [ref=f6e213]:
+              - generic [ref=f6e214]: Grand FinalPENDING
+              - generic [ref=f6e215]: AWinner TBD
+              - generic [ref=f6e217]: BWinner TBD

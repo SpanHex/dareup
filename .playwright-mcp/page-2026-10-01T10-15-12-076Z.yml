@@ -1,0 +1,406 @@
+- generic [ref=f3e3]:
+  - banner [ref=f3e4]:
+    - generic [ref=f3e5]:
+      - link "DAREDOWN" [ref=f3e6] [cursor=pointer]:
+        - /url: /
+      - navigation "Main Navigation" [ref=f3e7]:
+        - list [ref=f3e8]:
+          - listitem [ref=f3e9]:
+            - link "Challenges" [ref=f3e10] [cursor=pointer]:
+              - /url: /ngc
+          - listitem [ref=f3e11]:
+            - button "Bracket" [ref=f3e12] [cursor=pointer]
+          - listitem [ref=f3e13]:
+            - link "Rules" [ref=f3e14] [cursor=pointer]:
+              - /url: /rules
+          - listitem [ref=f3e15]:
+            - button "About" [ref=f3e16] [cursor=pointer]
+          - listitem [ref=f3e17]:
+            - button "Toggle theme (currently boy)" [ref=f3e18] [cursor=pointer]:
+              - generic [ref=f3e20]: BOY
+          - listitem [ref=f3e21]:
+            - link "Register / Log In" [ref=f3e22] [cursor=pointer]:
+              - /url: /register
+  - dialog "Mobile Navigation" [ref=f3e23]:
+    - generic [ref=f3e24]:
+      - generic [ref=f3e25]: DAREDOWN
+      - button "Close menu" [ref=f3e26] [cursor=pointer]
+    - navigation [ref=f3e30]:
+      - link "Challenges (Truth/Dare) →" [ref=f3e31] [cursor=pointer]:
+        - /url: /ngc
+        - generic [ref=f3e32]: Challenges (Truth/Dare)
+        - generic [ref=f3e33]: →
+      - button "Tournament Bracket →" [ref=f3e34] [cursor=pointer]:
+        - generic [ref=f3e35]: Tournament Bracket
+        - generic [ref=f3e36]: →
+      - link "Official Rules →" [ref=f3e37] [cursor=pointer]:
+        - /url: /rules
+        - generic [ref=f3e38]: Official Rules
+        - generic [ref=f3e39]: →
+      - button "About DAREDOWN →" [ref=f3e40] [cursor=pointer]:
+        - generic [ref=f3e41]: About DAREDOWN
+        - generic [ref=f3e42]: →
+      - link "Register / Log In →" [ref=f3e43] [cursor=pointer]:
+        - /url: /register
+        - generic [ref=f3e44]: Register / Log In
+        - generic [ref=f3e45]: →
+    - button "Visual Theme BOY" [ref=f3e47] [cursor=pointer]:
+      - generic [ref=f3e48]: Visual Theme
+      - generic [ref=f3e49]: BOY
+  - main [ref=f3e51]:
+    - generic [ref=f3e52]:
+      - generic [ref=f3e53]:
+        - generic [ref=f3e54]: Tournament Dare Vault
+        - heading "CHALLENGES" [level=1] [ref=f3e55]
+        - paragraph [ref=f3e56]: Browse the active DAREDOWN Truth or Dare challenge pool. All challenges are selected randomly and assigned live during match stream.
+      - generic [ref=f3e57]:
+        - generic [ref=f3e58]:
+          - button "ALL" [ref=f3e59] [cursor=pointer]
+          - button "TRUTH" [ref=f3e60] [cursor=pointer]
+          - button "DARE" [ref=f3e61] [cursor=pointer]
+        - textbox "Search challenges..." [ref=f3e66]
+      - generic [ref=f3e67]:
+        - generic [ref=f3e68]:
+          - generic [ref=f3e69]:
+            - generic [ref=f3e70]: truth
+            - paragraph [ref=f3e75]: "\"What's the most embarrassing thing you've done in public?\""
+          - generic [ref=f3e76]:
+            - generic [ref=f3e77]: "#t001"
+            - button "Copy challenge text" [ref=f3e78] [cursor=pointer]:
+              - generic [ref=f3e82]: Copy
+        - generic [ref=f3e83]:
+          - generic [ref=f3e84]:
+            - generic [ref=f3e85]: truth
+            - paragraph [ref=f3e92]: "\"What's a secret you've never told your closest friend?\""
+          - generic [ref=f3e93]:
+            - generic [ref=f3e94]: "#t002"
+            - button "Copy challenge text" [ref=f3e95] [cursor=pointer]:
+              - generic [ref=f3e99]: Copy
+        - generic [ref=f3e100]:
+          - generic [ref=f3e101]:
+            - generic [ref=f3e102]: truth
+            - paragraph [ref=f3e109]: "\"Have you ever blamed someone else for something you did? What happened?\""
+          - generic [ref=f3e110]:
+            - generic [ref=f3e111]: "#t003"
+            - button "Copy challenge text" [ref=f3e112] [cursor=pointer]:
+              - generic [ref=f3e116]: Copy
+        - generic [ref=f3e117]:
+          - generic [ref=f3e118]:
+            - generic [ref=f3e119]: truth
+            - paragraph [ref=f3e126]: "\"What's the worst lie you've ever told?\""
+          - generic [ref=f3e127]:
+            - generic [ref=f3e128]: "#t004"
+            - button "Copy challenge text" [ref=f3e129] [cursor=pointer]:
+              - generic [ref=f3e133]: Copy
+        - generic [ref=f3e134]:
+          - generic [ref=f3e135]:
+            - generic [ref=f3e136]: truth
+            - paragraph [ref=f3e141]: "\"What's your most embarrassing memory from school?\""
+          - generic [ref=f3e142]:
+            - generic [ref=f3e143]: "#t005"
+            - button "Copy challenge text" [ref=f3e144] [cursor=pointer]:
+              - generic [ref=f3e148]: Copy
+        - generic [ref=f3e149]:
+          - generic [ref=f3e150]:
+            - generic [ref=f3e151]: truth
+            - paragraph [ref=f3e156]: "\"Have you ever done something just to impress someone? Did it work?\""
+          - generic [ref=f3e157]:
+            - generic [ref=f3e158]: "#t006"
+            - button "Copy challenge text" [ref=f3e159] [cursor=pointer]:
+              - generic [ref=f3e163]: Copy
+        - generic [ref=f3e164]:
+          - generic [ref=f3e165]:
+            - generic [ref=f3e166]: truth
+            - paragraph [ref=f3e175]: "\"What's the most petty thing you've ever done out of spite?\""
+          - generic [ref=f3e176]:
+            - generic [ref=f3e177]: "#t007"
+            - button "Copy challenge text" [ref=f3e178] [cursor=pointer]:
+              - generic [ref=f3e182]: Copy
+        - generic [ref=f3e183]:
+          - generic [ref=f3e184]:
+            - generic [ref=f3e185]: truth
+            - paragraph [ref=f3e190]: "\"What's something you pretend to like just to fit in?\""
+          - generic [ref=f3e191]:
+            - generic [ref=f3e192]: "#t008"
+            - button "Copy challenge text" [ref=f3e193] [cursor=pointer]:
+              - generic [ref=f3e197]: Copy
+        - generic [ref=f3e198]:
+          - generic [ref=f3e199]:
+            - generic [ref=f3e200]: truth
+            - paragraph [ref=f3e209]: "\"What's the biggest mistake you've ever made that you covered up?\""
+          - generic [ref=f3e210]:
+            - generic [ref=f3e211]: "#t009"
+            - button "Copy challenge text" [ref=f3e212] [cursor=pointer]:
+              - generic [ref=f3e216]: Copy
+        - generic [ref=f3e217]:
+          - generic [ref=f3e218]:
+            - generic [ref=f3e219]: truth
+            - paragraph [ref=f3e226]: "\"If you had to delete everyone's memories of one day of your life, which day?\""
+          - generic [ref=f3e227]:
+            - generic [ref=f3e228]: "#t010"
+            - button "Copy challenge text" [ref=f3e229] [cursor=pointer]:
+              - generic [ref=f3e233]: Copy
+        - generic [ref=f3e234]:
+          - generic [ref=f3e235]:
+            - generic [ref=f3e236]: truth
+            - paragraph [ref=f3e243]: "\"What's something you judge other people for, even though you do it too?\""
+          - generic [ref=f3e244]:
+            - generic [ref=f3e245]: "#t011"
+            - button "Copy challenge text" [ref=f3e246] [cursor=pointer]:
+              - generic [ref=f3e250]: Copy
+        - generic [ref=f3e251]:
+          - generic [ref=f3e252]:
+            - generic [ref=f3e253]: truth
+            - paragraph [ref=f3e258]: "\"What's the most childish thing you still do regularly?\""
+          - generic [ref=f3e259]:
+            - generic [ref=f3e260]: "#t012"
+            - button "Copy challenge text" [ref=f3e261] [cursor=pointer]:
+              - generic [ref=f3e265]: Copy
+        - generic [ref=f3e266]:
+          - generic [ref=f3e267]:
+            - generic [ref=f3e268]: truth
+            - paragraph [ref=f3e273]: "\"Who was your most embarrassing crush?\""
+          - generic [ref=f3e274]:
+            - generic [ref=f3e275]: "#t013"
+            - button "Copy challenge text" [ref=f3e276] [cursor=pointer]:
+              - generic [ref=f3e280]: Copy
+        - generic [ref=f3e281]:
+          - generic [ref=f3e282]:
+            - generic [ref=f3e283]: truth
+            - paragraph [ref=f3e292]: "\"What's something illegal you've done that you never got caught for?\""
+          - generic [ref=f3e293]:
+            - generic [ref=f3e294]: "#t014"
+            - button "Copy challenge text" [ref=f3e295] [cursor=pointer]:
+              - generic [ref=f3e299]: Copy
+        - generic [ref=f3e300]:
+          - generic [ref=f3e301]:
+            - generic [ref=f3e302]: truth
+            - paragraph [ref=f3e309]: "\"What's the worst advice you've ever given someone that they actually took?\""
+          - generic [ref=f3e310]:
+            - generic [ref=f3e311]: "#t015"
+            - button "Copy challenge text" [ref=f3e312] [cursor=pointer]:
+              - generic [ref=f3e316]: Copy
+        - generic [ref=f3e317]:
+          - generic [ref=f3e318]:
+            - generic [ref=f3e319]: truth
+            - paragraph [ref=f3e326]: "\"What's a belief you held strongly that you're now embarrassed you believed?\""
+          - generic [ref=f3e327]:
+            - generic [ref=f3e328]: "#t016"
+            - button "Copy challenge text" [ref=f3e329] [cursor=pointer]:
+              - generic [ref=f3e333]: Copy
+        - generic [ref=f3e334]:
+          - generic [ref=f3e335]:
+            - generic [ref=f3e336]: truth
+            - paragraph [ref=f3e343]: "\"What's the most awkward encounter you've had with an ex or crush?\""
+          - generic [ref=f3e344]:
+            - generic [ref=f3e345]: "#t017"
+            - button "Copy challenge text" [ref=f3e346] [cursor=pointer]:
+              - generic [ref=f3e350]: Copy
+        - generic [ref=f3e351]:
+          - generic [ref=f3e352]:
+            - generic [ref=f3e353]: truth
+            - paragraph [ref=f3e360]: "\"What's something you do when you're completely alone that nobody knows?\""
+          - generic [ref=f3e361]:
+            - generic [ref=f3e362]: "#t018"
+            - button "Copy challenge text" [ref=f3e363] [cursor=pointer]:
+              - generic [ref=f3e367]: Copy
+        - generic [ref=f3e368]:
+          - generic [ref=f3e369]:
+            - generic [ref=f3e370]: truth
+            - paragraph [ref=f3e375]: "\"Have you ever stalked someone's socials so far back you accidentally liked a post?\""
+          - generic [ref=f3e376]:
+            - generic [ref=f3e377]: "#t019"
+            - button "Copy challenge text" [ref=f3e378] [cursor=pointer]:
+              - generic [ref=f3e382]: Copy
+        - generic [ref=f3e383]:
+          - generic [ref=f3e384]:
+            - generic [ref=f3e385]: truth
+            - paragraph [ref=f3e394]: "\"What's the meanest thing you've said behind someone's back?\""
+          - generic [ref=f3e395]:
+            - generic [ref=f3e396]: "#t020"
+            - button "Copy challenge text" [ref=f3e397] [cursor=pointer]:
+              - generic [ref=f3e401]: Copy
+        - generic [ref=f3e402]:
+          - generic [ref=f3e403]:
+            - generic [ref=f3e404]: dare
+            - paragraph [ref=f3e409]: "\"Speak in an accent of the other player's choice for the next 3 minutes.\""
+          - generic [ref=f3e410]:
+            - generic [ref=f3e411]: "#d001"
+            - button "Copy challenge text" [ref=f3e412] [cursor=pointer]:
+              - generic [ref=f3e416]: Copy
+        - generic [ref=f3e417]:
+          - generic [ref=f3e418]:
+            - generic [ref=f3e419]: dare
+            - paragraph [ref=f3e428]: "\"Let the host DM any message to anyone in your contacts (no context).\""
+          - generic [ref=f3e429]:
+            - generic [ref=f3e430]: "#d002"
+            - button "Copy challenge text" [ref=f3e431] [cursor=pointer]:
+              - generic [ref=f3e435]: Copy
+        - generic [ref=f3e436]:
+          - generic [ref=f3e437]:
+            - generic [ref=f3e438]: dare
+            - paragraph [ref=f3e443]: "\"Do your best impression of the person sitting across from you.\""
+          - generic [ref=f3e444]:
+            - generic [ref=f3e445]: "#d003"
+            - button "Copy challenge text" [ref=f3e446] [cursor=pointer]:
+              - generic [ref=f3e450]: Copy
+        - generic [ref=f3e451]:
+          - generic [ref=f3e452]:
+            - generic [ref=f3e453]: dare
+            - paragraph [ref=f3e460]: "\"Show the last 3 photos in your camera roll to the camera.\""
+          - generic [ref=f3e461]:
+            - generic [ref=f3e462]: "#d004"
+            - button "Copy challenge text" [ref=f3e463] [cursor=pointer]:
+              - generic [ref=f3e467]: Copy
+        - generic [ref=f3e468]:
+          - generic [ref=f3e469]:
+            - generic [ref=f3e470]: dare
+            - paragraph [ref=f3e477]: "\"Eat a spoonful of whatever combination of condiments the host picks.\""
+          - generic [ref=f3e478]:
+            - generic [ref=f3e479]: "#d005"
+            - button "Copy challenge text" [ref=f3e480] [cursor=pointer]:
+              - generic [ref=f3e484]: Copy
+        - generic [ref=f3e485]:
+          - generic [ref=f3e486]:
+            - generic [ref=f3e487]: dare
+            - paragraph [ref=f3e496]: "\"Post whatever status the host chooses to your story for 10 minutes.\""
+          - generic [ref=f3e497]:
+            - generic [ref=f3e498]: "#d006"
+            - button "Copy challenge text" [ref=f3e499] [cursor=pointer]:
+              - generic [ref=f3e503]: Copy
+        - generic [ref=f3e504]:
+          - generic [ref=f3e505]:
+            - generic [ref=f3e506]: dare
+            - paragraph [ref=f3e511]: "\"Let the opponent draw a mustache on your face with a washable marker.\""
+          - generic [ref=f3e512]:
+            - generic [ref=f3e513]: "#d007"
+            - button "Copy challenge text" [ref=f3e514] [cursor=pointer]:
+              - generic [ref=f3e518]: Copy
+        - generic [ref=f3e519]:
+          - generic [ref=f3e520]:
+            - generic [ref=f3e521]: dare
+            - paragraph [ref=f3e528]: "\"Call a random contact and sing 'Happy Birthday' completely deadpan, then hang up.\""
+          - generic [ref=f3e529]:
+            - generic [ref=f3e530]: "#d008"
+            - button "Copy challenge text" [ref=f3e531] [cursor=pointer]:
+              - generic [ref=f3e535]: Copy
+        - generic [ref=f3e536]:
+          - generic [ref=f3e537]:
+            - generic [ref=f3e538]: dare
+            - paragraph [ref=f3e543]: "\"Do 20 pushups right now without stopping.\""
+          - generic [ref=f3e544]:
+            - generic [ref=f3e545]: "#d009"
+            - button "Copy challenge text" [ref=f3e546] [cursor=pointer]:
+              - generic [ref=f3e550]: Copy
+        - generic [ref=f3e551]:
+          - generic [ref=f3e552]:
+            - generic [ref=f3e553]: dare
+            - paragraph [ref=f3e562]: "\"Read out the last 5 search queries in your browser history.\""
+          - generic [ref=f3e563]:
+            - generic [ref=f3e564]: "#d010"
+            - button "Copy challenge text" [ref=f3e565] [cursor=pointer]:
+              - generic [ref=f3e569]: Copy
+        - generic [ref=f3e570]:
+          - generic [ref=f3e571]:
+            - generic [ref=f3e572]: dare
+            - paragraph [ref=f3e579]: "\"Hold an ice cube in your mouth until it completely melts.\""
+          - generic [ref=f3e580]:
+            - generic [ref=f3e581]: "#d011"
+            - button "Copy challenge text" [ref=f3e582] [cursor=pointer]:
+              - generic [ref=f3e586]: Copy
+        - generic [ref=f3e587]:
+          - generic [ref=f3e588]:
+            - generic [ref=f3e589]: dare
+            - paragraph [ref=f3e594]: "\"Balance a spoon on your nose for 45 seconds straight.\""
+          - generic [ref=f3e595]:
+            - generic [ref=f3e596]: "#d012"
+            - button "Copy challenge text" [ref=f3e597] [cursor=pointer]:
+              - generic [ref=f3e601]: Copy
+        - generic [ref=f3e602]:
+          - generic [ref=f3e603]:
+            - generic [ref=f3e604]: dare
+            - paragraph [ref=f3e611]: "\"Rap the first verse of any song you know, completely acapella and serious.\""
+          - generic [ref=f3e612]:
+            - generic [ref=f3e613]: "#d013"
+            - button "Copy challenge text" [ref=f3e614] [cursor=pointer]:
+              - generic [ref=f3e618]: Copy
+        - generic [ref=f3e619]:
+          - generic [ref=f3e620]:
+            - generic [ref=f3e621]: dare
+            - paragraph [ref=f3e628]: "\"Let the chat or host choose your profile picture for the next 24 hours.\""
+          - generic [ref=f3e629]:
+            - generic [ref=f3e630]: "#d014"
+            - button "Copy challenge text" [ref=f3e631] [cursor=pointer]:
+              - generic [ref=f3e635]: Copy
+        - generic [ref=f3e636]:
+          - generic [ref=f3e637]:
+            - generic [ref=f3e638]: dare
+            - paragraph [ref=f3e643]: "\"Drink a glass of water while holding your nose and humming.\""
+          - generic [ref=f3e644]:
+            - generic [ref=f3e645]: "#d015"
+            - button "Copy challenge text" [ref=f3e646] [cursor=pointer]:
+              - generic [ref=f3e650]: Copy
+        - generic [ref=f3e651]:
+          - generic [ref=f3e652]:
+            - generic [ref=f3e653]: dare
+            - paragraph [ref=f3e658]: "\"Say 'I surrender to the dare' after everything you say for the rest of this match.\""
+          - generic [ref=f3e659]:
+            - generic [ref=f3e660]: "#d016"
+            - button "Copy challenge text" [ref=f3e661] [cursor=pointer]:
+              - generic [ref=f3e665]: Copy
+        - generic [ref=f3e666]:
+          - generic [ref=f3e667]:
+            - generic [ref=f3e668]: dare
+            - paragraph [ref=f3e673]: "\"Wear your shirt backwards and inside out for the rest of the event.\""
+          - generic [ref=f3e674]:
+            - generic [ref=f3e675]: "#d017"
+            - button "Copy challenge text" [ref=f3e676] [cursor=pointer]:
+              - generic [ref=f3e680]: Copy
+        - generic [ref=f3e681]:
+          - generic [ref=f3e682]:
+            - generic [ref=f3e683]: dare
+            - paragraph [ref=f3e690]: "\"Do a 60-second plank while answering rapid-fire trivia from the host.\""
+          - generic [ref=f3e691]:
+            - generic [ref=f3e692]: "#d018"
+            - button "Copy challenge text" [ref=f3e693] [cursor=pointer]:
+              - generic [ref=f3e697]: Copy
+        - generic [ref=f3e698]:
+          - generic [ref=f3e699]:
+            - generic [ref=f3e700]: dare
+            - paragraph [ref=f3e709]: "\"Let the opponent text anything they want from your phone to a group chat.\""
+          - generic [ref=f3e710]:
+            - generic [ref=f3e711]: "#d019"
+            - button "Copy challenge text" [ref=f3e712] [cursor=pointer]:
+              - generic [ref=f3e716]: Copy
+        - generic [ref=f3e717]:
+          - generic [ref=f3e718]:
+            - generic [ref=f3e719]: dare
+            - paragraph [ref=f3e726]: "\"Eat a slice of raw lemon without making any facial expression whatsoever.\""
+          - generic [ref=f3e727]:
+            - generic [ref=f3e728]: "#d020"
+            - button "Copy challenge text" [ref=f3e729] [cursor=pointer]:
+              - generic [ref=f3e733]: Copy
+  - contentinfo [ref=f3e734]:
+    - img "DAREDOWN" [ref=f3e736]
+    - generic [ref=f3e738]:
+      - generic [ref=f3e739]:
+        - generic [ref=f3e740]: DAREDOWN
+        - generic [ref=f3e741]: TRUTH OR DARE
+        - generic [ref=f3e742]: TOURNAMENT
+      - generic [ref=f3e743]:
+        - link "Rules" [ref=f3e744] [cursor=pointer]:
+          - /url: /rules
+        - link "Bracket" [ref=f3e745] [cursor=pointer]:
+          - /url: /#bracket
+        - link "Challenges" [ref=f3e746] [cursor=pointer]:
+          - /url: /ngc
+        - link "About" [ref=f3e747] [cursor=pointer]:
+          - /url: /#about
+      - generic [ref=f3e748]:
+        - link "Register" [ref=f3e749] [cursor=pointer]:
+          - /url: /register
+        - link "Profile" [ref=f3e750] [cursor=pointer]:
+          - /url: /profile
+      - generic [ref=f3e751]:
+        - generic [ref=f3e752]: Hosted by the crew
+        - generic [ref=f3e753]: 16 Players. £50 Prize Pool. Truth or Dare elimination.

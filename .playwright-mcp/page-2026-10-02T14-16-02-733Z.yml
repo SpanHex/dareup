@@ -1,0 +1,248 @@
+- generic [ref=f4e2]:
+  - generic [ref=f4e4]:
+    - generic [ref=f4e5]: DAREDOWN
+    - generic [ref=f4e8]:
+      - generic [ref=f4e9]: FONTS READY
+      - generic [ref=f4e10]: 10%
+  - banner [ref=f4e11]:
+    - generic [ref=f4e12]:
+      - link "DAREDOWN" [ref=f4e13] [cursor=pointer]:
+        - /url: /
+      - list [ref=f4e14]:
+        - listitem [ref=f4e15]:
+          - link "Challenges" [ref=f4e16] [cursor=pointer]:
+            - /url: /ngc
+        - listitem [ref=f4e17]:
+          - link "Bracket" [ref=f4e18] [cursor=pointer]:
+            - /url: /#bracket
+        - listitem [ref=f4e19]:
+          - link "Rules" [ref=f4e20] [cursor=pointer]:
+            - /url: /rules
+        - listitem [ref=f4e21]:
+          - link "About" [ref=f4e22] [cursor=pointer]:
+            - /url: /#about
+        - listitem [ref=f4e23]:
+          - button "Toggle visual theme" [ref=f4e24] [cursor=pointer]:
+            - generic [ref=f4e26]: GIRL
+        - listitem [ref=f4e27]:
+          - link "Register / Log In" [ref=f4e28] [cursor=pointer]:
+            - /url: /register
+  - main [ref=f4e29]:
+    - generic [ref=f4e30]:
+      - region "Hero to winners transition" [ref=f4e31]:
+        - generic [ref=f4e32]:
+          - generic:
+            - generic:
+              - paragraph:
+                - generic: DAREDOWNTRUTH OR DARE TOURNAMENT
+          - region [ref=f4e35]:
+            - heading [level=2] [ref=f4e37]: DAREDOWN CHAMPIONS
+            - generic [ref=f4e38]:
+              - article [ref=f4e39]:
+                - img [aria-hidden] [ref=f4e40]:
+                  - generic [ref=f4e41]: "2"
+                - generic [ref=f4e42]:
+                  - paragraph [ref=f4e43]: 2ND PLACE
+                  - heading [level=3] [ref=f4e45]: TBD
+                  - img [ref=f4e46]:
+                    - generic [ref=f4e47]: Runner Up
+                  - paragraph [ref=f4e48]: The Finalist
+              - article [ref=f4e49]:
+                - img [aria-hidden] [ref=f4e50]:
+                  - generic [ref=f4e51]: "1"
+                - generic [ref=f4e52]:
+                  - paragraph [ref=f4e53]: 1ST PLACE
+                  - heading [level=3] [ref=f4e55]: TBD
+                  - img [ref=f4e56]:
+                    - generic [ref=f4e57]: £50
+                  - paragraph [ref=f4e58]: The Champion
+              - article [ref=f4e59]:
+                - img [aria-hidden] [ref=f4e60]:
+                  - generic [ref=f4e61]: "3"
+                - generic [ref=f4e62]:
+                  - paragraph [ref=f4e63]: 3RD PLACE
+                  - heading [level=3] [ref=f4e65]: TBD
+                  - img [ref=f4e66]:
+                    - generic [ref=f4e67]: Survived
+                  - paragraph [ref=f4e68]: THE BRAVE
+      - generic [ref=f4e69]:
+        - heading "TOURNAMENT BRACKET" [level=2] [ref=f4e70]
+        - generic [ref=f4e75]:
+          - generic [ref=f4e78]:
+            - generic [ref=f4e79]:
+              - generic [ref=f4e81]:
+                - generic [ref=f4e82]:
+                  - 'button "Open match Player #1 versus Player #2" [ref=f4e84] [cursor=pointer]':
+                    - generic [ref=f4e85]: "Player #1"
+                    - generic [ref=f4e88]: "Player #2"
+                  - 'button "Open match Player #3 versus Player #4" [ref=f4e92] [cursor=pointer]':
+                    - generic [ref=f4e93]: "Player #3"
+                    - generic [ref=f4e96]: "Player #4"
+                - article [ref=f4e100]:
+                  - generic [ref=f4e101]: TBD
+                  - generic [ref=f4e104]: TBD
+              - generic [ref=f4e108]:
+                - generic [ref=f4e109]:
+                  - 'button "Open match Player #5 versus Player #6" [ref=f4e111] [cursor=pointer]':
+                    - generic [ref=f4e112]: "Player #5"
+                    - generic [ref=f4e115]: "Player #6"
+                  - 'button "Open match Player #7 versus Player #8" [ref=f4e119] [cursor=pointer]':
+                    - generic [ref=f4e120]: "Player #7"
+                    - generic [ref=f4e123]: "Player #8"
+                - article [ref=f4e127]:
+                  - generic [ref=f4e128]: TBD
+                  - generic [ref=f4e131]: TBD
+            - article [ref=f4e135]:
+              - generic [ref=f4e136]: TBD
+              - generic [ref=f4e139]: TBD
+          - article [ref=f4e145]:
+            - generic [ref=f4e146]: TBD
+            - generic [ref=f4e149]: TBD
+          - generic [ref=f4e155]:
+            - generic [ref=f4e156]:
+              - generic [ref=f4e158]:
+                - generic [ref=f4e159]:
+                  - 'button "Open match Player #9 versus Player #10" [ref=f4e161] [cursor=pointer]':
+                    - generic [ref=f4e162]: "Player #9"
+                    - generic [ref=f4e165]: "Player #10"
+                  - 'button "Open match Player #11 versus Player #12" [ref=f4e169] [cursor=pointer]':
+                    - generic [ref=f4e170]: "Player #11"
+                    - generic [ref=f4e173]: "Player #12"
+                - article [ref=f4e177]:
+                  - generic [ref=f4e178]: TBD
+                  - generic [ref=f4e181]: TBD
+              - generic [ref=f4e185]:
+                - generic [ref=f4e186]:
+                  - 'button "Open match Player #13 versus Player #14" [ref=f4e188] [cursor=pointer]':
+                    - generic [ref=f4e189]: "Player #13"
+                    - generic [ref=f4e192]: "Player #14"
+                  - 'button "Open match Player #15 versus Player #16" [ref=f4e196] [cursor=pointer]':
+                    - generic [ref=f4e197]: "Player #15"
+                    - generic [ref=f4e200]: "Player #16"
+                - article [ref=f4e204]:
+                  - generic [ref=f4e205]: TBD
+                  - generic [ref=f4e208]: TBD
+            - article [ref=f4e212]:
+              - generic [ref=f4e213]: TBD
+              - generic [ref=f4e216]: TBD
+      - generic [ref=f4e219]:
+        - heading "About" [level=2] [ref=f4e220]
+        - generic [ref=f4e221]:
+          - paragraph [ref=f4e222]:
+            - generic [ref=f4e223]: DARE
+            - generic [ref=f4e225]: TO
+            - generic [ref=f4e227]: SURVIVE.
+          - paragraph [ref=f4e229]:
+            - generic [ref=f4e230]: DAREDOWN
+            - generic [ref=f4e232]: is
+            - generic [ref=f4e234]: a
+            - generic [ref=f4e236]: live
+            - generic [ref=f4e238]: Truth
+            - generic [ref=f4e240]: or
+            - generic [ref=f4e242]: Dare
+            - generic [ref=f4e244]: elimination
+            - generic [ref=f4e246]: tournament.
+            - generic [ref=f4e248]: "16"
+            - generic [ref=f4e250]: players.
+            - generic [ref=f4e252]: Random
+            - generic [ref=f4e254]: matchups.
+            - generic [ref=f4e256]: Challenges
+            - generic [ref=f4e258]: assigned
+            - generic [ref=f4e260]: live.
+            - generic [ref=f4e262]: Fail
+            - generic [ref=f4e264]: the
+            - generic [ref=f4e266]: dare
+            - generic [ref=f4e268]: and
+            - generic [ref=f4e270]: you're
+            - generic [ref=f4e272]: out.
+            - generic [ref=f4e274]: Last
+            - generic [ref=f4e276]: one
+            - generic [ref=f4e278]: standing
+            - generic [ref=f4e280]: takes
+            - generic [ref=f4e282]: £50.
+      - generic [ref=f4e284]:
+        - heading "EVENT ROUNDS" [level=2] [ref=f4e285]
+        - generic [ref=f4e286]:
+          - generic [ref=f4e287]:
+            - generic [ref=f4e288]:
+              - paragraph [ref=f4e289]: "1"
+              - paragraph [ref=f4e290]: ROUND OF 16
+            - generic [ref=f4e291]:
+              - paragraph [ref=f4e292]: 16 PLAYERS
+              - paragraph [ref=f4e293]: "Random matchups: Truth or Dare assigned live"
+          - generic [ref=f4e294]:
+            - generic [ref=f4e295]:
+              - paragraph [ref=f4e296]: "2"
+              - paragraph [ref=f4e297]: QUARTERFINALS
+            - generic [ref=f4e298]:
+              - paragraph [ref=f4e299]: 8 SURVIVORS
+              - paragraph [ref=f4e300]: "Harder challenges: double or nothing"
+          - generic [ref=f4e301]:
+            - generic [ref=f4e302]:
+              - paragraph [ref=f4e303]: "3"
+              - paragraph [ref=f4e304]: SEMIFINALS
+            - generic [ref=f4e305]:
+              - paragraph [ref=f4e306]: 4 REMAIN
+              - paragraph [ref=f4e307]: One slip and you're out
+          - generic [ref=f4e308]:
+            - generic [ref=f4e309]:
+              - paragraph [ref=f4e310]: "4"
+              - paragraph [ref=f4e311]: THE FINAL
+            - generic [ref=f4e312]:
+              - paragraph [ref=f4e313]: 2 PLAYERS
+              - paragraph [ref=f4e314]: One dare. Winner takes £50
+      - generic [ref=f4e316]:
+        - heading "WANT IN?" [level=2] [ref=f4e317]:
+          - generic [ref=f4e318]: WANT
+          - generic [ref=f4e320]: IN?
+        - paragraph [ref=f4e322]:
+          - generic [ref=f4e323]: Entry
+          - generic [ref=f4e325]: "fee:"
+          - generic [ref=f4e327]: £0.50.
+          - generic [ref=f4e329]: "Prize:"
+          - generic [ref=f4e331]: £50.
+          - generic [ref=f4e333]: "16"
+          - generic [ref=f4e335]: spots.
+          - generic [ref=f4e337]: First
+          - generic [ref=f4e339]: come,
+          - generic [ref=f4e341]: first
+          - generic [ref=f4e343]: served.
+        - list [ref=f4e345]:
+          - listitem [ref=f4e346]:
+            - link "REGISTER NOW" [ref=f4e347] [cursor=pointer]:
+              - /url: /register
+        - paragraph [ref=f4e349]:
+          - generic [ref=f4e350]: Questions?
+          - generic [ref=f4e352]: Contact
+          - generic [ref=f4e354]: the
+          - generic [ref=f4e356]: host
+          - generic [ref=f4e358]: to
+          - generic [ref=f4e360]: find
+          - generic [ref=f4e362]: out
+          - generic [ref=f4e364]: more.
+  - generic [ref=f4e366]:
+    - img "DAREDOWN" [ref=f4e367]
+    - contentinfo [ref=f4e368]:
+      - generic [ref=f4e369]:
+        - generic [ref=f4e370]:
+          - generic [ref=f4e371]: DAREDOWN
+          - generic [ref=f4e372]: TRUTH OR DARE
+          - generic [ref=f4e373]: TOURNAMENT
+        - list [ref=f4e374]:
+          - listitem [ref=f4e375]:
+            - link "Rules" [ref=f4e376] [cursor=pointer]:
+              - /url: /rules
+          - listitem [ref=f4e377]:
+            - link "Bracket" [ref=f4e378] [cursor=pointer]:
+              - /url: /#bracket
+          - listitem [ref=f4e379]:
+            - link "Challenges" [ref=f4e380] [cursor=pointer]:
+              - /url: /ngc
+          - listitem [ref=f4e381]:
+            - link "About" [ref=f4e382] [cursor=pointer]:
+              - /url: /#about
+        - list [ref=f4e383]:
+          - listitem [ref=f4e384]:
+            - link "Register" [ref=f4e385] [cursor=pointer]:
+              - /url: /register
+        - generic [ref=f4e386]: Hosted by the crew

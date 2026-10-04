@@ -1,0 +1,67 @@
+- generic [ref=f2e2]:
+  - banner [ref=f2e412]:
+    - generic [ref=f2e413]:
+      - link "DAREDOWN" [ref=f2e414] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f2e415]:
+        - button "Toggle visual theme" [ref=f2e416] [cursor=pointer]:
+          - generic [ref=f2e418]: BOY
+        - link "Log In" [ref=f2e420] [cursor=pointer]:
+          - /url: /register
+        - button "Open navigation menu" [ref=f2e421] [cursor=pointer]
+  - main [ref=f2e423]:
+    - generic [ref=f2e426]:
+      - heading "Event Rules" [level=1] [ref=f2e427]
+      - paragraph [ref=f2e428]: Failure to comply with the rules may result in disqualification. The host has final say on all outcomes.
+      - generic [ref=f2e429]:
+        - generic [ref=f2e430]:
+          - heading "1. Deadlines" [level=2] [ref=f2e431]
+          - generic [ref=f2e432]:
+            - paragraph [ref=f2e433]: Deadlines for tournament registration or submitting work for each round are displayed on the main page. Participants who fail to submit their work by the deadline will be disqualified from the tournament. Exceptions may be made if we are notified of a delay in submission.
+            - paragraph [ref=f2e434]: If a participant fails to submit their work for a round and does not notify the judges in any way, they are considered disqualified from the tournament and will never ever be allowed to participate in any future events.
+        - generic [ref=f2e435]:
+          - heading "2. How Challenges Work" [level=2] [ref=f2e436]
+          - generic [ref=f2e437]:
+            - paragraph [ref=f2e438]: Each match involves two players who are randomly paired by the host. The host assigns either a Truth or Dare challenge to each player. Challenges are selected randomly from the approved pool.
+            - paragraph [ref=f2e439]: Players must complete their challenge in full to advance. The audience and host vote on the outcome. The player with the lower score is eliminated.
+        - generic [ref=f2e440]:
+          - heading "3. Fair Play & Conduct" [level=2] [ref=f2e441]
+          - paragraph [ref=f2e443]: All participants must behave respectfully towards other players, spectators, and the host. Toxic behaviour, harassment, or cheating of any kind will result in immediate disqualification.
+        - generic [ref=f2e444]:
+          - heading "4. Tournament Progression" [level=2] [ref=f2e445]
+          - generic [ref=f2e446]:
+            - paragraph [ref=f2e447]: "The tournament consists of 4 rounds: Round of 16, Quarterfinals, Semifinals, and The Final. One player is eliminated per match. The bracket advances automatically after each round."
+            - paragraph [ref=f2e448]: A player who refuses to complete a challenge without a valid reason is automatically eliminated. The host may choose to substitute a challenge if it is deemed unfit.
+        - generic [ref=f2e449]:
+          - heading "5. Prizes & Winner" [level=2] [ref=f2e450]
+          - list [ref=f2e451]:
+            - listitem [ref=f2e452]: • The last player standing wins the full £50 prize pool
+            - listitem [ref=f2e453]: • Entry fee (£0.50) is collected in person by the host at check-in
+            - listitem [ref=f2e454]: • No refunds once the event has started
+            - listitem [ref=f2e455]: • The host has final say in all disputes
+  - generic [ref=f2e456]:
+    - img "DAREDOWN" [ref=f2e457]
+    - contentinfo [ref=f2e458]:
+      - generic [ref=f2e459]:
+        - generic [ref=f2e460]:
+          - generic [ref=f2e461]: DAREDOWN
+          - generic [ref=f2e462]: TRUTH OR DARE
+          - generic [ref=f2e463]: TOURNAMENT
+        - list [ref=f2e464]:
+          - listitem [ref=f2e465]:
+            - link "Rules" [ref=f2e466] [cursor=pointer]:
+              - /url: /rules
+          - listitem [ref=f2e467]:
+            - link "Bracket" [ref=f2e468] [cursor=pointer]:
+              - /url: /#bracket
+          - listitem [ref=f2e469]:
+            - link "Challenges" [ref=f2e470] [cursor=pointer]:
+              - /url: /ngc
+          - listitem [ref=f2e471]:
+            - link "About" [ref=f2e472] [cursor=pointer]:
+              - /url: /#about
+        - list [ref=f2e473]:
+          - listitem [ref=f2e474]:
+            - link "Register" [ref=f2e475] [cursor=pointer]:
+              - /url: /register
+        - generic [ref=f2e476]: Hosted by the crew
